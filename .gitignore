@@ -1,0 +1,54 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Dependencies / environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated/cache/local state
+dist/
+build/
+.cache/
+.pytest_cache/
+coverage/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+embeddings/
+vector-store/
+chroma/
+.faiss/
+generated/
+scratch/
+tmp/
+temp/
+
+# Unreviewed bulk source downloads should stay local unless explicitly cleared
+downloads/
+raw-downloads/
+
+# Archives and large model binaries
+*.zip
+*.rar
+*.7z
+*.bin
+*.onnx
+*.pt
+*.pth
+*.ckpt
