@@ -1,0 +1,60 @@
+{
+  "rule_id": "WEST-PTOLEMY-COMMON-MERCURY-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter V",
+    "verse": null,
+    "page": "14",
+    "section": "Benefics and Malefics",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_14",
+    "short_quote": "The Sun and Mercury are deemed of common influence, and productive either of good or evil in unison with whatever planets they may be connected with."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-BENEFIC-MALEFIC",
+  "prerequisites": [
+    "planetary connections"
+  ],
+  "calculation_dependencies": [],
+  "condition": {
+    "classification": "common influence",
+    "planet": "Mercury",
+    "modulation": "good or evil according to connected planets"
+  },
+  "normalized_rule": "Classify Mercury as of common influence, with good or evil expression depending on the planets with which it is connected.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "common_influence",
+    "planetary_relationship",
+    "mercury"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific relational classification, not a guaranteed good or evil outcome.",
+  "review_notes": "The source explicitly makes Mercury's common influence relational; this rule records only Mercury's atomic classification.",
+  "source_terms": [
+    "common influence",
+    "productive either of good or evil",
+    "connected with"
+  ],
+  "transmission_notes": "The category is the cited Ashmand rendering of Ptolemy's Proclus-based text; 'common influence' is preserved as source terminology rather than mapped to a later sect or benefic technique.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}
