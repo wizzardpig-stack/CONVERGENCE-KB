@@ -1,0 +1,68 @@
+{
+  "rule_id": "WEST-PTOLEMY-EDITORIAL-HOUSE-DAY-NIGHT-JUPITER-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Ashmand/Whalley editorial transmission",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition; footnote 49",
+    "book": "Book I",
+    "chapter": "Chapter XX",
+    "verse": null,
+    "page": "29 (callout); endnote",
+    "section": "Houses of the Planets; footnote 49 callout and endnote",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Footnote_49",
+    "short_quote": "Jupiter’s day house is Sagittarius, his night house Pisces"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-EDITORIAL-DAY-NIGHT-HOUSES",
+  "prerequisites": [
+    "editorial day/night house table",
+    "planet identity"
+  ],
+  "calculation_dependencies": [],
+  "condition": {
+    "planet": "Jupiter",
+    "house_assignments": {
+      "day": "Sagittarius",
+      "night": "Pisces"
+    },
+    "source_layer": "Whalley/modern editorial overlay"
+  },
+  "normalized_rule": "In Ashmand's footnote 49, attributed to Whalley and also found in modern writers, assign Jupiter's day house to Sagittarius and its night house to Pisces.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "editorial_day_night_house_order",
+    "planetary_house",
+    "day_night_house",
+    "jupiter"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "technical_secondary",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This records an editorial/modern day-night ordering, not a Ptolemaic main-text house pair or a scientific claim.",
+  "review_notes": "Keep this overlay separate from the Ptolemaic two-house assignment. It is preserved because the source edition explicitly attributes the table to Whalley and modern writers.",
+  "source_terms": [
+    "day house",
+    "night house",
+    "Sagittarius",
+    "Pisces",
+    "Whalley",
+    "modern astrological writers"
+  ],
+  "transmission_notes": "Footnote 49 explicitly says the table is from Whalley and also appears in modern astrological writers. This is editorial/modern material within the registered edition, not Ptolemy's main text.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:37:47.226Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

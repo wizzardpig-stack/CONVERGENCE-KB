@@ -1,0 +1,22 @@
+{
+  "conflict_id": "CONFLICT-PTOLEMY-SIGN-KIND-001",
+  "rule_ids": [
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-TRINE-HARMONIOUS-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-SEXTILE-HARMONIOUS-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-OPPOSITION-DISCORDANT-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-QUARTILE-DISCORDANT-001",
+    "WEST-PTOLEMY-SIGN-GENDER-MASCULINE-001",
+    "WEST-PTOLEMY-SIGN-GENDER-FEMININE-001"
+  ],
+  "conflict_type": "doctrinal",
+  "description": "Book I Chapter XV's Aries-origin alternating sign-gender arrangement and Chapter XVI's same-kind/different-kind configuration labels are not fully reconciled in the cited transmission.",
+  "why_they_differ": "The Aries-origin sequence makes a six-sign opposition connect signs of the same listed gender, while Chapter XVI describes opposition and quartile as configurations between signs of different kinds, natures, or sexes. The source does not state how the Chapter XVI terminology maps onto each Chapter XV arrangement.",
+  "materiality": "major",
+  "resolution_policy": "needs_expert_review",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Disclose the sign-kind arrangement and do not silently map the Chapter XVI harmonious/discordant labels onto one Chapter XV variant.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}

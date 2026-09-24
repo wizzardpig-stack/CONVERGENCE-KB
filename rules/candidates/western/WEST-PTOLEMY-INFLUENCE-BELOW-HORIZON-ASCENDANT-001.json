@@ -1,0 +1,65 @@
+{
+  "rule_id": "WEST-PTOLEMY-INFLUENCE-BELOW-HORIZON-ASCENDANT-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVII",
+    "verse": null,
+    "page": "39",
+    "section": "Application, Separation, and Other Faculties",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_39",
+    "short_quote": "if ... below the earth, and configurated with the ascendant ... its influence then becomes more languid"
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "WEST-PTOLEMAIC-INFLUENCE-STRENGTH",
+  "prerequisites": [
+    "planet below the horizon",
+    "Ascendant configuration"
+  ],
+  "calculation_dependencies": [
+    "horizon-side position",
+    "angular configuration with the Ascendant"
+  ],
+  "condition": {
+    "position": "below the earth",
+    "configuration": "with the Ascendant from the lower heaven or another part below the earth",
+    "source_consequence": "more languid influence"
+  },
+  "normalized_rule": "When a planet is below the earth and configured with the Ascendant from the lower heaven or another part below the earth, classify its influence as more languid.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "influence_strength",
+    "below_horizon",
+    "ascendant_configuration",
+    "languid_influence"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific traditional influence classification, not a modern physics or psychological claim.",
+  "review_notes": "Keep this below-horizon branch separate from the no-configuration branch and from the mid-heaven/horizon strength rules.",
+  "source_terms": [
+    "below the earth",
+    "configurated with the ascendant",
+    "languid"
+  ],
+  "transmission_notes": "The condition is stated in the Ashmand/Proclus main text; no later house-rulership or accidental-dignity system is imported.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

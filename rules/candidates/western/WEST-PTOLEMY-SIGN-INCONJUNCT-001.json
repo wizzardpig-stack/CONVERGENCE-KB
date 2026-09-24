@@ -1,0 +1,63 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-INCONJUNCT-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XIX",
+    "verse": null,
+    "page": "27",
+    "section": "Signs Inconjunct",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_27",
+    "short_quote": "All signs, between which there does not exist any familiarity in any of the modes above specified, are inconjunct and separated."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-FAMILIARITIES",
+  "prerequisites": [
+    "two zodiacal signs",
+    "the preceding sign-familiarity and configuration modes"
+  ],
+  "calculation_dependencies": [
+    "absence of a recognized sign familiarity or configuration"
+  ],
+  "condition": {
+    "relationship": "no familiarity in the preceding modes",
+    "classification": "inconjunct and separated"
+  },
+  "normalized_rule": "Classify two signs as inconjunct and separated when they share none of the preceding sign familiarities or configurations.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "inconjunct_signs",
+    "sign_familiarity",
+    "sign_non_familiarity",
+    "zodiacal_relationship"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sign-relationship classification, not a claim about interpersonal incompatibility.",
+  "review_notes": "The general definition is recorded. The source's one-sign and five-sign examples are not expanded into separate rules because their surrounding wording and editorial minor-aspect discussion require separate review. The source's sign-level 'separated' is distinct from the moving-body separation in Chapter XXVII.",
+  "source_terms": [
+    "inconjunct",
+    "separated",
+    "no familiarity"
+  ],
+  "transmission_notes": "The main-text definition is retained, but the one-sign/five-sign examples and the surrounding editorial discussion of later minor aspects are not silently converted into an executable aspect system. The sign-level term 'separated' is kept distinct from Chapter XXVII's dynamic application/separation terminology.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

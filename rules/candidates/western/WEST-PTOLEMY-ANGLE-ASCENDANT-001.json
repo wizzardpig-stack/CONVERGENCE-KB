@@ -1,0 +1,63 @@
+{
+  "rule_id": "WEST-PTOLEMY-ANGLE-ASCENDANT-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XIII",
+    "verse": null,
+    "page": "22",
+    "section": "The Influence of the Four Angles",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_22",
+    "short_quote": "the eastern point, or angle of the ascendant, is chiefly dry in its nature"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-ANGULAR-QUALITIES",
+  "prerequisites": [
+    "horizon angle identification"
+  ],
+  "calculation_dependencies": [
+    "ascendant/eastern angle position"
+  ],
+  "condition": {
+    "angle": "Ascendant",
+    "direction": "eastern point",
+    "quality": "chiefly dry"
+  },
+  "normalized_rule": "Classify the Ascendant, the eastern angle, as chiefly dry in Ptolemy's angular scheme.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "angular_quality",
+    "ascendant",
+    "dryness",
+    "eastern_angle"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific angular classification, not a later house-rulership or scientific geography claim.",
+  "review_notes": "Keep the four angle-quality rules separate from sign qualities and later house interpretations.",
+  "source_terms": [
+    "eastern point",
+    "angle of the ascendant",
+    "dry"
+  ],
+  "transmission_notes": "The angular quality is stated in the Ashmand/Proclus main text; it is not mapped to later house-rulership doctrine.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-CATEGORY-BICORPOREAL-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XIV",
+    "verse": null,
+    "page": "23",
+    "section": "Tropical, Equinoctial, Fixed, and Bicorporeal Signs",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_23",
+    "short_quote": "The bicorporeal signs severally follow the fixed signs"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-CATEGORIES",
+  "prerequisites": [
+    "fixed sign positions",
+    "zodiac sign order"
+  ],
+  "calculation_dependencies": [
+    "source-order placement after the fixed signs"
+  ],
+  "condition": {
+    "category": "bicorporeal",
+    "signs": [
+      "Gemini",
+      "Virgo",
+      "Sagittarius",
+      "Pisces"
+    ],
+    "source_definition": "four signs following the fixed signs"
+  },
+  "normalized_rule": "Classify Gemini, Virgo, Sagittarius, and Pisces as the bicorporeal signs under the source's zodiac-order definition.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "bicorporeal_signs",
+    "sign_category",
+    "zodiac_order",
+    "seasonal_transition"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sign taxonomy, not an astronomical claim about modern zodiac boundaries.",
+  "review_notes": "The source defines the bicorporeal signs by position; the explicit list is resolved from its zodiac order rather than imported from a later table.",
+  "source_terms": [
+    "bicorporeal signs",
+    "fixed signs",
+    "intermediately placed",
+    "first to their last degrees"
+  ],
+  "transmission_notes": "The source defines the bicorporeal category positionally. The explicit list is reconstructed from the zodiac order printed in the same chapter, not from a later modality system.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -10,12 +10,12 @@
     "book": "Book I",
     "chapter": "Chapter XVI",
     "verse": null,
-    "page": "24-26",
+    "page": "24-25",
     "section": "Mutual Configurations of the Signs",
     "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_24",
     "short_quote": "six signs, or a hundred and eighty degrees; four signs, or a hundred and twenty degrees; three signs, or ninety degrees; and two signs, or sixty degrees"
   },
-  "claim_type": "classification_rule",
+  "claim_type": "technique_rule",
   "technique_id": "WEST-PTOLEMAIC-SIGN-CONFIGURATIONS",
   "prerequisites": [
     "two zodiacal positions",
@@ -64,8 +64,8 @@
   "textual_certainty": "medium",
   "corroborates": [],
   "conflicts_with": [],
-  "synthesis_notes": "This is a source-specific configuration taxonomy, not a claim about scientific compatibility or guaranteed events.",
-  "review_notes": "This rule records the four configurations defined in Book I Chapter XVI as one taxonomy. Later minor aspects and the editorial discussion of mundane aspects are not imported into this candidate.",
+  "synthesis_notes": "This is the parent source-specific distance taxonomy, not four separate aspect outcomes or a scientific compatibility claim.",
+  "review_notes": "This is the parent taxonomy for the four source distances. The specialized harmonious/discordant rules add separate Chapter XVI labels; later minor aspects and editorial mundane-aspect discussion are not imported.",
   "source_terms": [
     "mutual configuration",
     "diametrically distant",

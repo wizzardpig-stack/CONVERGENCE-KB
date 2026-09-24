@@ -1,0 +1,69 @@
+{
+  "rule_id": "WEST-PTOLEMY-INFLUENCE-HORIZON-EAST-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVII",
+    "verse": null,
+    "page": "39",
+    "section": "Application, Separation, and Other Faculties",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_39",
+    "short_quote": "if it be on the actual horizon, or succedent to the horizon, it is also powerful—particularly if in the eastern quarter"
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "WEST-PTOLEMAIC-INFLUENCE-STRENGTH",
+  "prerequisites": [
+    "horizon position",
+    "planet or star position"
+  ],
+  "calculation_dependencies": [
+    "angular position relative to the horizon",
+    "eastern-quarter position"
+  ],
+  "condition": {
+    "position": [
+      "actual horizon",
+      "succedent to the horizon"
+    ],
+    "especially": "eastern quarter",
+    "source_consequence": "powerful influence"
+  },
+  "normalized_rule": "Classify a planet's influence as powerful when it is on the actual horizon or succedent to the horizon, especially in the eastern quarter.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "influence_strength",
+    "horizon",
+    "eastern_quarter",
+    "angular_position"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific traditional influence classification, not a modern physics or house-rulership claim.",
+  "review_notes": "Keep this horizon condition separate from the mid-heaven and below-horizon conditions in the same chapter.",
+  "source_terms": [
+    "actual horizon",
+    "succedent to the horizon",
+    "eastern quarter",
+    "powerful"
+  ],
+  "transmission_notes": "The condition is stated in the Ashmand/Proclus main text; no later house-rulership or accidental-dignity system is imported.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -10,9 +10,9 @@
     "book": "Book III",
     "chapter": "Chapter XIII",
     "verse": null,
-    "page": "89",
-    "section": "The Number of Prorogators, and also the Part of Fortune — footnote 144",
-    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_89",
+    "page": "89 (callout); endnote",
+    "section": "The Number of Prorogators, and also the Part of Fortune — footnote 144 callout and endnote",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Footnote_144",
     "short_quote": "if the Moon should so follow the Sun ... according to the succession of the signs ... if the Moon precede the Sun ... contrary to the succession"
   },
   "claim_type": "calculation_rule",
@@ -30,7 +30,7 @@
     "relative order of the Sun and Moon"
   ],
   "condition": {
-    "method": "Perugio Latin footnote variant",
+    "method": "Perugio Latin footnote restatement",
     "relative_order": {
       "Moon_follows_Sun": "count from the Ascendant according to the succession of the signs",
       "Moon_precedes_Sun": "count from the Ascendant contrary to the succession of the signs"
@@ -47,22 +47,22 @@
     "translation_variant"
   ],
   "polarity": "neutral",
-  "evidence_level": "primary_classical",
+  "evidence_level": "technical_secondary",
   "empirical_status": "traditional_doctrine",
   "textual_certainty": "disputed",
   "corroborates": [],
   "conflicts_with": [
     "WEST-PTOLEMY-LOT-FORTUNE-001"
   ],
-  "synthesis_notes": "This is a separately transmitted directional calculation variant, not a default replacement for the main-text procedure.",
-  "review_notes": "Retain the Perugio footnote variant without selecting a winner. It uses the Sun-Moon degree interval stated in the main text but supplies the directional branch reported in the footnote; it is chart-changing and is linked to the main-text candidate through an active conflict.",
+  "synthesis_notes": "This is a transmitted directional restatement in an editorial footnote, not an independently established competing calculation or default.",
+  "review_notes": "Retain the Perugio footnote restatement without selecting a winner. It uses the Sun-Moon degree interval stated in the main text but supplies directional wording reported in the footnote; it is linked to the main-text candidate through an open transmission-review record, not asserted as a proven chart-changing fork.",
   "source_terms": [
     "Part of Fortune",
     "succession of the signs",
     "follow the Sun",
     "precede the Sun"
   ],
-  "transmission_notes": "This procedure appears as an additional passage in the 1646 Perugio Latin translation reported in Ashmand's footnote 144; it is not stated in the same form in Ashmand's main text. Certainty is disputed as a Ptolemaic/main-text reading and is limited to the cited transmission.",
+  "transmission_notes": "This procedure appears as an additional passage in the 1646 Perugio Latin translation reported in Ashmand's footnote 144; it is not stated in the same form in Ashmand's main text. The same footnote says the related Cardan formulation is exactly equivalent, so the cited edition does not establish a chart-changing computational fork. Certainty is disputed as a Ptolemaic/main-text reading and is limited to the cited transmission.",
   "provenance": {
     "extracted_by": "convergence_doctrine_researcher",
     "extracted_at": "2026-09-24T04:50:39.088Z",
