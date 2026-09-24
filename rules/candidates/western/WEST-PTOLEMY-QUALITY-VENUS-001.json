@@ -1,0 +1,63 @@
+{
+  "rule_id": "WEST-PTOLEMY-QUALITY-VENUS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter IV",
+    "verse": null,
+    "page": "14",
+    "section": "The Influences of the Planetary Orbs",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_14",
+    "short_quote": "To Venus also the same temperate quality belongs."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-PLANETARY-QUALITIES",
+  "prerequisites": [],
+  "calculation_dependencies": [],
+  "condition": {
+    "body": "Venus",
+    "quality_profile": {
+      "temperament": "temperate",
+      "warmth": "lesser",
+      "moisture": "predominant"
+    }
+  },
+  "normalized_rule": "Classify Venus as temperate, with moisture predominating over its heat.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "planetary_quality",
+    "warmth",
+    "moisture",
+    "temperament",
+    "venus"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific nature layer, not a scientific measurement or a guaranteed behavioral outcome.",
+  "review_notes": "This quality rule can be combined with separate sect, domicile, and exaltation rules; it does not by itself predict an outcome.",
+  "source_terms": [
+    "temperate quality",
+    "moisture",
+    "heat"
+  ],
+  "transmission_notes": "Chapter IV's quality language is the cited Ashmand rendering of the Proclus/Ptolemy transmission; certainty is about that wording, not an autograph wording or empirical measurement.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

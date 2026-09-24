@@ -1,0 +1,69 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-DOMICILE-SATURN-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XX",
+    "verse": null,
+    "page": "28-29",
+    "section": "Houses of the Planets; footnote 49",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_28",
+    "short_quote": "Saturn ... occupies the signs opposite to Cancer and Leo: these are Aquarius and Capricorn"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-DOMICILE",
+  "prerequisites": [
+    "Saturn identity",
+    "main-text two-house assignment",
+    "footnote 49 day/night ordering"
+  ],
+  "calculation_dependencies": [],
+  "condition": {
+    "planet": "Saturn",
+    "house_assignments": {
+      "day": "Aquarius",
+      "night": "Capricorn"
+    },
+    "house_pair_source": "Book I Chapter XX main text",
+    "day_night_order_source": "edition footnote 49"
+  },
+  "normalized_rule": "Ptolemy's Chapter XX assigns Saturn the two houses Aquarius and Capricorn; the cited edition's footnote 49 orders Aquarius as day and Capricorn as night.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "domicile",
+    "planetary_house",
+    "day_night_house",
+    "saturn"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific house lookup, not a guaranteed personality or event outcome.",
+  "review_notes": "Pairs with the existing Sun and Moon house rules. The main text supports Saturn's two signs; the day/night order is an edition footnote/modern overlay, not silently attributed to Ptolemy. 'Domicile' remains normalized technique vocabulary.",
+  "source_terms": [
+    "house",
+    "day house",
+    "night house",
+    "Aquarius",
+    "Capricorn"
+  ],
+  "transmission_notes": "Chapter XX's main text assigns Saturn's two signs. Footnote 49 says the day/night table is from Whalley and also found in modern writers; preserve that editorial/modern overlay separately from the Ptolemaic two-house assignment.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

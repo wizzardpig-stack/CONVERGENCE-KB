@@ -1,0 +1,89 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-CONFIGURATIONS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XVI",
+    "verse": null,
+    "page": "24-26",
+    "section": "Mutual Configurations of the Signs",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_24",
+    "short_quote": "six signs, or a hundred and eighty degrees; four signs, or a hundred and twenty degrees; three signs, or ninety degrees; and two signs, or sixty degrees"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-CONFIGURATIONS",
+  "prerequisites": [
+    "two zodiacal positions",
+    "zodiacal distance"
+  ],
+  "calculation_dependencies": [
+    "longitude or sign separation",
+    "zodiacal distance in signs and degrees"
+  ],
+  "condition": {
+    "body_class": "zodiacal parts",
+    "configuration_set": {
+      "opposition": {
+        "sign_distance": 6,
+        "degrees": 180
+      },
+      "trine": {
+        "sign_distance": 4,
+        "degrees": 120
+      },
+      "quartile": {
+        "sign_distance": 3,
+        "degrees": 90
+      },
+      "sextile": {
+        "sign_distance": 2,
+        "degrees": 60
+      }
+    }
+  },
+  "normalized_rule": "Classify the four mutual zodiacal configurations by their source distances: opposition at six signs or 180 degrees, trine at four signs or 120 degrees, quartile at three signs or 90 degrees, and sextile at two signs or 60 degrees.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "zodiacal_configuration",
+    "opposition",
+    "trine",
+    "quartile",
+    "sextile",
+    "sign_distance"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific configuration taxonomy, not a claim about scientific compatibility or guaranteed events.",
+  "review_notes": "This rule records the four configurations defined in Book I Chapter XVI as one taxonomy. Later minor aspects and the editorial discussion of mundane aspects are not imported into this candidate.",
+  "source_terms": [
+    "mutual configuration",
+    "diametrically distant",
+    "triangular distance",
+    "quadrate distance",
+    "hexagonal distance",
+    "opposition",
+    "trine",
+    "quartile",
+    "sextile"
+  ],
+  "transmission_notes": "The four distances are in the Ashmand/Proclus main text. The surrounding footnote discusses later editorial objections and minor aspects; those are deliberately not treated as part of this source-specific taxonomy.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

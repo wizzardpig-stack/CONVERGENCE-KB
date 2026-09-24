@@ -1,0 +1,74 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-TRIPLICITY-FOURTH-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXI",
+    "verse": null,
+    "page": "30",
+    "section": "The Triplicities",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_30",
+    "short_quote": "the Moon by night and Venus by day ... govern it, together with Mars"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-TRIPLICITY",
+  "prerequisites": [
+    "zodiac sign",
+    "sect",
+    "planetary house right"
+  ],
+  "calculation_dependencies": [
+    "determination that the sign is Cancer, Scorpio, or Pisces",
+    "determination of day or night branch"
+  ],
+  "condition": {
+    "triplicity_signs": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "rulers": {
+      "Mars": "right through the house of Scorpio",
+      "night": "Moon",
+      "day": "Venus"
+    }
+  },
+  "normalized_rule": "For the Cancer-Scorpio-Pisces triplicity, assign Mars the house-based right and associate the Moon with night rulership and Venus with day rulership alongside Mars under the Ptolemaic variant.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "triplicity_rulership",
+    "sect",
+    "planetary_dignity",
+    "ptolemaic_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific rulership classification input; it does not itself predict an event or personality outcome.",
+  "review_notes": "The first triplicity is already represented in Batch 01; this rule covers only the fourth triplicity. Triplicity rulership differs by sect and school, so no universal later-school table is implied.",
+  "source_terms": [
+    "triplicity",
+    "right ... by means of his house",
+    "Moon by night",
+    "Venus by day"
+  ],
+  "transmission_notes": "This is the Ptolemaic fourth-triplicity allocation in the Ashmand/Proclus transmission. The source's regional and elemental explanations are contextual; the rule records only the stated rulership mapping.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-TRIPLICITY-THIRD-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXI",
+    "verse": null,
+    "page": "30",
+    "section": "The Triplicities",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_30",
+    "short_quote": "Saturn rules it by day ... and Mercury by night."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-TRIPLICITY",
+  "prerequisites": [
+    "zodiac sign",
+    "sect"
+  ],
+  "calculation_dependencies": [
+    "determination that the sign is Gemini, Libra, or Aquarius",
+    "determination of day or night branch"
+  ],
+  "condition": {
+    "triplicity_signs": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "sect_rulership": {
+      "day": "Saturn",
+      "night": "Mercury"
+    }
+  },
+  "normalized_rule": "For the Gemini-Libra-Aquarius triplicity, assign rulership to Saturn by day and Mercury by night under the Ptolemaic variant.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "triplicity_rulership",
+    "sect",
+    "planetary_dignity",
+    "ptolemaic_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific rulership classification input; it does not itself predict an event or personality outcome.",
+  "review_notes": "The first triplicity is already represented in Batch 01; this rule covers only the third triplicity. Triplicity rulership differs by sect and school, so no universal later-school table is implied.",
+  "source_terms": [
+    "triplicity",
+    "Saturn rules it by day",
+    "Mercury by night"
+  ],
+  "transmission_notes": "This is the Ptolemaic third-triplicity allocation in the Ashmand/Proclus transmission. The source's regional and elemental explanations are contextual; the rule records only the sect rulership mapping.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

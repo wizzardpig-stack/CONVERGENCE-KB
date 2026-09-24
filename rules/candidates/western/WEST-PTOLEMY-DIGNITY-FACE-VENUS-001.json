@@ -16,7 +16,7 @@
     "short_quote": "Venus is in her proper face when making a sextile aspect to either luminary, provided she be occidental to the Sun, but oriental to the Moon"
   },
   "claim_type": "classification_rule",
-  "technique_id": "WEST-DIGNITY-FACE",
+  "technique_id": "WEST-PTOLEMAIC-PROPER-FACE",
   "prerequisites": [
     "Venus aspect to the Sun or Moon",
     "printed Sun-relative and Moon-relative orientation conditions"
