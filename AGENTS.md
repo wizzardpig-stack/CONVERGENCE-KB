@@ -3,14 +3,16 @@
 This repository is the provenance-aware knowledge base for the CONVERGENCE synthesis engine.
 
 ## Mission
-Build a source-backed rules graph for Western astrology, Jyotisha, numerology, and Human Design. The system must preserve disagreements between traditions and expose the reasoning behind user-facing interpretations.
+Build a source-backed rules graph for Western astrology, Jyotisha, numerology, and Human Design. Preserve disagreements between traditions and expose the reasoning behind user-facing interpretations.
 
 ## Before editing
 Read:
 - `research-notes/EXTRACTION_PROTOCOL.md`
+- `research-notes/DOMAIN_TAXONOMY.md`
 - `schemas/rule.schema.json`
 - `schemas/conflict.schema.json`
 - `sources/registry/source_registry.csv`
+- `techniques/technique_registry.csv`
 
 ## Hard rules
 - Never invent a source, quotation, chapter, verse, page, rule, calculation, or historical claim.
@@ -26,18 +28,37 @@ Read:
 ## File conventions
 - Candidate rules: `rules/candidates/<tradition>/RULE_ID.json`
 - Approved rules: `rules/approved/<tradition>/RULE_ID.json`
-- Conflicts: `conflicts/CONFLICT_ID.json`
+- Active conflicts: `conflicts/active/CONFLICT_ID.json`
 - Technique registry: `techniques/technique_registry.csv`
 - Source registry: `sources/registry/source_registry.csv`
 - Tests/fixtures: `tests/`
+
+Tradition folders currently use:
+- western
+- jyotisha
+- numerology
+- human-design
 
 ## Practical domains
 Primary domains are SELF, MONEY, LOVE, PURPOSE, SHADOW, TIME.
 Secondary domains include CAREER, FAMILY, CREATIVITY, SPIRITUALITY, SEX_INTIMACY, SOCIAL, COMPATIBILITY, LOCATION, HEALTH_SYMBOLISM.
 
+## Validation
+Before declaring an extraction batch complete, run:
+```
+npm.cmd run validate:kb
+```
+on Windows, or `npm run validate:kb` elsewhere.
+
+If Python dependencies are available, also run:
+```
+python tests/validate_kb.py
+```
+
 ## Definition of done for an extraction batch
-- Every rule validates against schema.
+- Every rule passes available validation.
 - Every rule names an existing source ID.
+- Every rule names an existing technique ID.
 - Every rule has a usable source locator.
 - Candidate rules are atomic.
 - Conflicts are explicitly recorded.
