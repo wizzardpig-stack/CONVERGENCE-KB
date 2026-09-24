@@ -1,0 +1,43 @@
+{
+  "rule_id":"WEST-EXAMPLE-DOMICILE-001",
+  "status":"candidate",
+  "tradition":"Western astrology",
+  "school":"Traditional / example only",
+  "source_id":"WEST-PTOLEMY-001",
+  "source_locator":{
+    "work_title":"Ptolemy's Tetrabiblos",
+    "edition_or_translation":"J. M. Ashmand",
+    "book":null,
+    "chapter":null,
+    "verse":null,
+    "page":null,
+    "section":null,
+    "source_url":"https://www.gutenberg.org/ebooks/70850",
+    "short_quote":null
+  },
+  "claim_type":"classification_rule",
+  "technique_id":"WEST-DIGNITY-DOMICILE",
+  "prerequisites":["planetary longitude","zodiac sign"],
+  "calculation_dependencies":["zodiac position"],
+  "condition":{"example_only":true},
+  "normalized_rule":"Example placeholder showing the required rule shape. It is not approved doctrine and must not be used in production interpretation.",
+  "domains":["SELF"],
+  "concepts":["example_only"],
+  "polarity":"neutral",
+  "strength_weight":0,
+  "evidence_level":"primary_classical",
+  "empirical_status":"traditional_doctrine",
+  "textual_certainty":"low",
+  "corroborates":[],
+  "conflicts_with":[],
+  "synthesis_notes":"Schema demonstration only.",
+  "review_notes":"Do not approve. Replace with a genuinely extracted source-backed rule.",
+  "provenance":{
+    "extracted_by":"repository_scaffold",
+    "extracted_at":"2026-09-23T00:00:00Z",
+    "review_state":"unreviewed",
+    "reviewed_by":null,
+    "reviewed_at":null,
+    "source_fingerprint":null
+  }
+}
