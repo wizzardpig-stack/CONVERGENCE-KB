@@ -1,0 +1,78 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-BOUNDS-BASE-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXIV",
+    "verse": null,
+    "page": "35-36",
+    "section": "The Terms According to Ptolemy",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_35",
+    "short_quote": "each of the benefics, Jupiter and Venus, takes seven degrees; the malefics, Saturn and Mars, take five degrees each; and Mercury, being of common influence, takes six degrees"
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "WEST-DIGNITY-BOUNDS",
+  "prerequisites": [
+    "Ptolemaic exaltation, triplicity, and house rulerships",
+    "rulerships for the current sign and the next two signs"
+  ],
+  "calculation_dependencies": [
+    "30-degree sign span",
+    "Ptolemaic double-dignity test",
+    "successive sign order"
+  ],
+  "condition": {
+    "method": "Ptolemy",
+    "precondition": "no planet has two rights of dominion in the same sign or in the next two signs",
+    "base_term_degrees": {
+      "Jupiter": 7,
+      "Venus": 7,
+      "Saturn": 5,
+      "Mars": 5,
+      "Mercury": 6
+    }
+  },
+  "normalized_rule": "For the Ptolemaic base terms, when no planet has a double right in the current sign or the next two signs, assign seven degrees each to Jupiter and Venus, five each to Saturn and Mars, and six degrees to Mercury.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "bounds",
+    "planetary_dignity",
+    "degree_allocation",
+    "ptolemaic_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-EGYPTIAN-001",
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-CHALDAIC-001"
+  ],
+  "synthesis_notes": "This is a deterministic allocation within the Ptolemaic traditional scheme, not an astronomical measurement or empirical probability statement.",
+  "review_notes": "Keep this Ptolemaic allocation source-specific. Chapter XXIII's Egyptian and Chaldaic distributions are separate variants and are represented by separate candidates and an active conflict; do not flatten them into this rule.",
+  "source_terms": [
+    "terms",
+    "Ptolemaic terms",
+    "double right",
+    "benefics",
+    "malefics",
+    "degrees"
+  ],
+  "transmission_notes": "Ashmand's Chapter XXIII presents Egyptian and Chaldaic methods before Chapter XXIV gives the Ptolemaic method. This candidate is limited to the Ptolemaic base allocation; certainty is scoped to the cited Ashmand/Proclus transmission.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

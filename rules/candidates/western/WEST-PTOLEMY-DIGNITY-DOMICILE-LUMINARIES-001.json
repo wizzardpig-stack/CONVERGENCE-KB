@@ -1,0 +1,65 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-DOMICILE-LUMINARIES-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XX",
+    "verse": null,
+    "page": "28",
+    "section": "Houses of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_28",
+    "short_quote": "Leo for the Sun, as being masculine"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-DOMICILE",
+  "prerequisites": [
+    "planet longitude",
+    "zodiac sign"
+  ],
+  "calculation_dependencies": [
+    "determination of the Sun's zodiac sign"
+  ],
+  "condition": {
+    "planet": "Sun",
+    "source_house": "Leo",
+    "normalized_classification": "domicile"
+  },
+  "normalized_rule": "In Ptolemy's house assignments, classify the Sun as being in its house in Leo; 'domicile' is normalized terminology.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "domicile",
+    "planetary_house",
+    "sun",
+    "luminaries"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific house/dignity lookup, not a personality or event conclusion.",
+  "review_notes": "The retained legacy ID now records only the Sun. The Moon assignment is split into WEST-PTOLEMY-DIGNITY-DOMICILE-MOON-001; preserve the source word 'house' in interpretation.",
+  "source_terms": [
+    "house",
+    "Leo",
+    "Sun",
+    "luminaries"
+  ],
+  "transmission_notes": "Ashmand's passage uses 'house'; 'domicile' is retained as normalized technique vocabulary. The rule is limited to the explicit Sun/Leo assignment in the cited Ashmand/Proclus transmission.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

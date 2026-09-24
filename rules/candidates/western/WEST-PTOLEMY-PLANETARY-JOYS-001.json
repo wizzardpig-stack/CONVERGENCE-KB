@@ -1,0 +1,65 @@
+{
+  "rule_id": "WEST-PTOLEMY-PLANETARY-JOYS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVI",
+    "verse": null,
+    "page": "37",
+    "section": "Faces, Chariots, and Other Similar Attributes of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_37",
+    "short_quote": "each planet (although it may possess no familiarity with the sign encompassing it) is said to rejoice, when any connection subsists between itself and other stars of the same condition"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-REJOICING",
+  "prerequisites": [
+    "planetary condition classification",
+    "connection between the planet and another star"
+  ],
+  "calculation_dependencies": [
+    "classification of the involved stars by planetary condition",
+    "classification of their mutual connection"
+  ],
+  "condition": {
+    "body": "a planet",
+    "connection_target": "another star of the same condition",
+    "classification": "rejoice"
+  },
+  "normalized_rule": "Classify a planet as rejoicing when a connection subsists between it and another star of the same condition.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "ptolemaic_rejoicing",
+    "same_condition",
+    "planetary_condition"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific traditional classification, not scientific resonance evidence or a later house-planet joy scheme.",
+  "review_notes": "Do not use WEST-PLANETARY-JOYS for this passage. The normalized rule is limited to the trigger on page 37; the explanatory continuation on page 38 is not needed to state the rule.",
+  "source_terms": [
+    "rejoice",
+    "same condition",
+    "sympathy",
+    "communication of influence"
+  ],
+  "transmission_notes": "The source's word 'rejoice' describes a Ptolemaic same-condition connection and is not automatically the later house-planet joy doctrine. The surrounding explanation continues onto page 38; certainty is scoped to the cited Ashmand/Proclus transmission.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

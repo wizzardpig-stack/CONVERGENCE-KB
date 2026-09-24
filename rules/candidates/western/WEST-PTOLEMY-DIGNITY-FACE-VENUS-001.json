@@ -1,0 +1,73 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-FACE-VENUS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVI",
+    "verse": null,
+    "page": "37",
+    "section": "Faces, Chariots, and Other Similar Attributes of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_37",
+    "short_quote": "Venus is in her proper face when making a sextile aspect to either luminary, provided she be occidental to the Sun, but oriental to the Moon"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-FACE",
+  "prerequisites": [
+    "Venus aspect to the Sun or Moon",
+    "printed Sun-relative and Moon-relative orientation conditions"
+  ],
+  "calculation_dependencies": [
+    "Venus angular separation from a luminary",
+    "source-defined orientation relative to the Sun and Moon"
+  ],
+  "condition": {
+    "planet": "Venus",
+    "aspect": "sextile",
+    "aspect_target": "Sun or Moon",
+    "printed_orientation_requirements": {
+      "to_Sun": "occidental",
+      "to_Moon": "oriental"
+    },
+    "interpretation_status": "unresolved"
+  },
+  "normalized_rule": "In Ashmand's wording, Venus's proper-face example involves a sextile aspect to the Sun or Moon with the printed orientation qualifications; whether those qualifications are simultaneous or correspond to alternative luminary targets remains unresolved.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "proper_face",
+    "sextile_aspect",
+    "orientality",
+    "occidentiality",
+    "luminary_relationship"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a traditional relational classification, not a claim about later decan dignity or scientifically measured facial appearance.",
+  "review_notes": "Keep the candidate unresolved. The Ashmand syntax does not establish whether the two printed orientation conditions are simultaneous or correspond to alternative luminary targets; do not implement either reading as settled.",
+  "source_terms": [
+    "proper face",
+    "sextile aspect",
+    "occidental to the Sun",
+    "oriental to the Moon",
+    "houses"
+  ],
+  "transmission_notes": "The cited sentence is syntactically ambiguous in the Ashmand/Proclus transmission: 'to either luminary' may be read with simultaneous qualifications or with target-corresponding alternatives. The later decan/face technique is not automatically equivalent to this Ptolemaic proper-face example.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

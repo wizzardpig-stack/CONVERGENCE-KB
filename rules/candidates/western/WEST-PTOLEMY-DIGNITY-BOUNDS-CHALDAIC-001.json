@@ -1,0 +1,76 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-BOUNDS-CHALDAIC-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXIII",
+    "verse": null,
+    "page": "34-35",
+    "section": "The Disposition of the Terms",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_34",
+    "short_quote": "the first planet takes eight degrees, the second seven, the third six, the fourth five, and the fifth four"
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "WEST-DIGNITY-BOUNDS",
+  "prerequisites": [
+    "Chaldaic method's stated order of planets",
+    "the sign-by-sign terms context"
+  ],
+  "calculation_dependencies": [
+    "successive term order",
+    "degree sequence 8, 7, 6, 5, 4"
+  ],
+  "condition": {
+    "method": "Chaldaic",
+    "degree_sequence": [
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    "scope": "five successive term positions in the method's stated order"
+  },
+  "normalized_rule": "Under the Chaldaic method, allocate the five successive term positions in the degree sequence 8, 7, 6, 5, and 4.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "chaldaic_terms",
+    "term_method",
+    "degree_allocation",
+    "bounds_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-BASE-001",
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-EGYPTIAN-001"
+  ],
+  "synthesis_notes": "This is a separately reported historical term-allocation variant; it is not an endorsed replacement for the Ptolemaic method.",
+  "review_notes": "Ashmand explicitly criticizes the order and accuracy of the Chaldaic method. Retain the method as a source-reported variant and do not silently merge it with the Egyptian or Ptolemaic allocations.",
+  "source_terms": [
+    "Chaldaic method",
+    "terms",
+    "degrees",
+    "first planet",
+    "second"
+  ],
+  "transmission_notes": "The Chaldaic sequence and totals are reported in Ashmand's Chapter XXIII, whose wording is critical of the method. The rule records the transmitted variant, not a claim that the method is Ptolemy's preferred or autograph formulation.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:50:39.088Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

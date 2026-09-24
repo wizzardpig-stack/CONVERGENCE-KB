@@ -1,0 +1,75 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-TRIPLICITY-FIRST-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXI",
+    "verse": null,
+    "page": "29",
+    "section": "The Triplicities",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_29",
+    "short_quote": "By day, therefore, the Sun claims the principal co-regency of it, and Jupiter by night."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-TRIPLICITY",
+  "prerequisites": [
+    "zodiac sign",
+    "sect"
+  ],
+  "calculation_dependencies": [
+    "determination that the sign is Aries, Leo, or Sagittarius",
+    "determination of day or night branch"
+  ],
+  "condition": {
+    "triplicity_signs": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "sect_rulership": {
+      "day": "Sun",
+      "night": "Jupiter"
+    }
+  },
+  "normalized_rule": "For the Aries-Leo-Sagittarius triplicity, assign principal co-regency to the Sun by day and to Jupiter by night under the Ptolemaic variant.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "triplicity_rulership",
+    "sect",
+    "planetary_dignity",
+    "ptolemaic_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific rulership classification input; it does not itself predict an event or personality outcome.",
+  "review_notes": "Mark this as the Ptolemaic first-triplicity variant. Triplicity rulership differs by sect and school; no cross-school rule has been extracted, so no conflict rule is invented here.",
+  "source_terms": [
+    "triplicity",
+    "principal co-regency",
+    "Aries",
+    "Leo",
+    "Sagittarius",
+    "day",
+    "night"
+  ],
+  "transmission_notes": "This is the Ptolemaic first-triplicity allocation in the Ashmand/Proclus transmission. It must not be treated as a universal or later-school triplicity table; certainty is edition/transmission-scoped.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "rule_id": "WEST-PTOLEMY-LOT-FORTUNE-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book III",
+    "chapter": "Chapter XIII",
+    "verse": null,
+    "page": "89",
+    "section": "The Number of Prorogators, and also the Part of Fortune",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_89",
+    "short_quote": "The part of Fortune is ascertained by computing the number of degrees between the Sun and the Moon; and it is placed at an equal number of degrees distant from the ascendant, in the order of the signs."
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "WEST-LOTS-FORTUNE",
+  "prerequisites": [
+    "Sun longitude",
+    "Moon longitude",
+    "Ascendant longitude",
+    "relative order of the Sun and Moon"
+  ],
+  "calculation_dependencies": [
+    "Sun-Moon zodiacal degree interval",
+    "sign succession",
+    "relative order of the Sun and Moon for the preserved directional variant"
+  ],
+  "condition": {
+    "method": "Ashmand main-text relational procedure",
+    "required_positions": [
+      "Sun",
+      "Moon",
+      "Ascendant"
+    ],
+    "operation": "measure the Sun-Moon degree interval and place the Part of Fortune at an equal interval from the Ascendant so the Moon-Part relation matches the Sun-Ascendant relation",
+    "sect_statement": "the cited main text states the same procedure by day and night",
+    "directional_status": "unresolved; compare the separate Perugio variant"
+  },
+  "normalized_rule": "In Ashmand's main text, compute the Part of Fortune from the Sun-Moon degree interval and place the point an equal interval from the Ascendant so the Moon's relation to the Part of Fortune corresponds to the Sun's relation to the Ascendant; the text says the same procedure applies by day and night, while the directional footnote variant is preserved separately.",
+  "domains": [
+    "TIME"
+  ],
+  "concepts": [
+    "part_of_fortune",
+    "degree_interval",
+    "ascendant_relation",
+    "prorogation",
+    "directional_variant"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [
+    "WEST-PTOLEMY-LOT-FORTUNE-PERUGIO-001"
+  ],
+  "synthesis_notes": "This is a traditional astrological point calculation within the cited transmission, not an astronomical measurement or a scientific claim.",
+  "review_notes": "The candidate records the main-text procedure without selecting a directional winner. The additional Perugio Latin instruction in footnote 144 is represented by a separate candidate and an active chart-changing conflict.",
+  "source_terms": [
+    "Part of Fortune",
+    "prorogator",
+    "ascendant",
+    "order of the signs",
+    "same relation"
+  ],
+  "transmission_notes": "Ashmand's main text states the relational procedure for day and night; footnote 144 reports an additional Perugio Latin directional variant. The main-text shorthand and the footnote variant are retained without collapsing them. Certainty is confidence in this cited Ashmand/Proclus transmission, not in an autograph of Ptolemy.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

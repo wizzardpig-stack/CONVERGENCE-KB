@@ -1,0 +1,19 @@
+{
+  "conflict_id": "CONFLICT-PTOLEMY-TERMS-001",
+  "rule_ids": [
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-BASE-001",
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-EGYPTIAN-001",
+    "WEST-PTOLEMY-DIGNITY-BOUNDS-CHALDAIC-001"
+  ],
+  "conflict_type": "calculation_method",
+  "description": "Ashmand's Book I presents Egyptian, Chaldaic, and Ptolemaic distributions of terms as distinct methods with different ordering or degree allocations.",
+  "why_they_differ": "Chapter XXIII reports and compares the Egyptian and Chaldaic distributions, while Chapter XXIV gives Ptolemy's ordering and base allocation; the methods cannot be treated as one interchangeable table.",
+  "materiality": "major",
+  "resolution_policy": "preserve_variants",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Select and disclose the term system; do not flatten Egyptian, Chaldaic, and Ptolemaic allocations into a single result.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}
