@@ -1,16 +1,47 @@
-# CONVERGENCE-KB tests
+# CONVERGENCE-KB validation
 
-The knowledge base should eventually have automated validation for:
+Two validators are available.
 
-1. JSON Schema validation for every rule/conflict/technique.
-2. Referential integrity: every rule source_id exists in the source registry.
-3. Referential integrity: every technique_id exists in the technique registry.
-4. No duplicate rule IDs.
-5. No approved rule with review_state other than approved.
-6. No conflict referencing missing rules once conflicts leave placeholder/example status.
-7. Rights checks: sources marked do_not_ingest cannot have extracted text.
-8. Locator checks: approved rules require at least one meaningful chapter/verse/page/section locator where the source supports one.
-9. Domain/concept vocabulary validation.
-10. Calculation-engine benchmark fixtures later: ephemeris, timezone, ayanamsha, houses, aspects, vargas, dashas, numerology, Human Design.
+## Fast validator — no extra dependencies
+On Windows:
+```
+npm.cmd run validate:kb
+```
 
-Examples under rules/examples and conflicts/examples are scaffolding only and must not be consumed as production doctrine.
+This checks:
+- source/technique required fields and duplicate IDs,
+- rule source/technique referential integrity,
+- candidate vs approved path/status consistency,
+- approved review state,
+- approved locator presence,
+- do_not_ingest source violations,
+- conflict references,
+- duplicate rule/conflict IDs,
+- JSON parse errors.
+
+## Strict JSON Schema validator
+Install:
+```
+python -m pip install -r requirements-dev.txt
+```
+
+Then:
+```
+python tests/validate_kb.py
+```
+
+This performs JSON Schema validation in addition to repository integrity checks as it evolves.
+
+Examples under `rules/examples` and `conflicts/examples` are scaffolding only and must never be consumed as production doctrine.
+
+## Planned benchmark coverage
+- timezone and DST resolution,
+- tropical and sidereal planetary longitudes,
+- explicit ayanamsha selection,
+- houses and angles,
+- aspects/orbs,
+- vargas,
+- dashas,
+- numerology calculations,
+- Human Design mechanics,
+- full provenance chain from input to final claim.
