@@ -1,0 +1,15 @@
+{
+  "conflict_id":"CONFLICT-AYANAMSHA-001",
+  "rule_ids":["PLACEHOLDER-LAHIRI","PLACEHOLDER-RAMAN"],
+  "conflict_type":"ayanamsha",
+  "description":"Example conflict record showing how different sidereal reference choices can change calculated longitudes and downstream interpretation.",
+  "why_they_differ":"Different sidereal schools define the reference offset differently.",
+  "materiality":"chart_changing",
+  "resolution_policy":"follow_user_selected_school",
+  "default_rule_id":null,
+  "default_rationale":null,
+  "user_facing_note":"This result depends on the selected ayanamsha. CONVERGENCE should show the active system rather than presenting one sidereal chart as universal.",
+  "status":"open",
+  "reviewed_by":null,
+  "reviewed_at":null
+}
