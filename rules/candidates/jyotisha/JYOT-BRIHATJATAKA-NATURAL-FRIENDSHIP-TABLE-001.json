@@ -1,0 +1,65 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-NATURAL-FRIENDSHIP-TABLE-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 2",
+    "verse": "2.15-2.17",
+    "page": null,
+    "section": "Planets, verses 2.15-2.17",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501537.html",
+    "short_quote": "Jupiter [is friendly to the Sun], Jupiter and Mercury [are friendly to the Moon], Venus and Mercury [are friendly to Mars]"
+  },
+  "claim_type": "relationship_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-GRAHA-RELATIONSHIPS",
+  "prerequisites": [
+    "graha identity"
+  ],
+  "calculation_dependencies": [
+    "complete multi-verse table extraction",
+    "source-specific friendship implementation"
+  ],
+  "condition": {
+    "natural_friendship_table": "planet-specific table continued through verses 2.15-2.17",
+    "executable": false,
+    "missing_dependencies": [
+      "complete multi-verse table extraction",
+      "source-specific friendship implementation"
+    ]
+  },
+  "normalized_rule": "Brihat Jataka presents natural planetary friendship as a planet-specific table, beginning with Jupiter for the Sun, Jupiter and Mercury for the Moon, and Venus and Mercury for Mars.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "natural_friendship",
+    "graha_relationship",
+    "planet_table"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The translation compresses and partly garbles the table; preserve the table structure and avoid importing a later friendship scheme. The compressed multi-verse table remains textual rather than executable.",
+  "source_terms": [
+    "friendship",
+    "friendly"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

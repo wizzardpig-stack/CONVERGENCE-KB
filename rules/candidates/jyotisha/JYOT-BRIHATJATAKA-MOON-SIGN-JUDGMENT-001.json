@@ -1,0 +1,67 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-MOON-SIGN-JUDGMENT-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 17",
+    "verse": "17.13",
+    "page": null,
+    "section": "Disposition of the Zodiac Signs Containing the Moon",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501805.html",
+    "short_quote": "the lord of that is in a strong zodiac sign"
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-NATAL-JUDGMENT",
+  "prerequisites": [
+    "Moon sign",
+    "Moon strength",
+    "sign lord strength"
+  ],
+  "calculation_dependencies": [
+    "planetary longitude",
+    "sign placement",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy"
+  ],
+  "condition": {
+    "Moon_condition": "strong in its sign",
+    "sign_lord_condition": "in a strong sign",
+    "result_reference": "earlier Moon-sign results"
+  },
+  "normalized_rule": "When the Moon is strong in its sign and that sign’s lord is in a strong sign, Brihat Jataka directs judgment toward the Moon-sign results stated earlier.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "moon_sign_judgment",
+    "planet_strength",
+    "sign_lord"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a general judgment precedence rule, not a replacement for the omitted sign-by-sign result lists.",
+  "source_terms": [
+    "Chandra",
+    "rāśi",
+    "adhipati",
+    "bala"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

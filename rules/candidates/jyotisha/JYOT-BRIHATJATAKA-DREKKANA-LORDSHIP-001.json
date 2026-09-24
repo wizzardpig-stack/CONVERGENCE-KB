@@ -1,0 +1,74 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-DREKKANA-LORDSHIP-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 1",
+    "verse": "1.12",
+    "page": null,
+    "section": "Zodiac Signs",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501575.html",
+    "short_quote": "Also, they relay the dreshkana as the lords of"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-VARGA-DREKKANA",
+  "prerequisites": [
+    "divisional placement"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "divisional placement",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy",
+    "drekkana calculation",
+    "variant/default selection"
+  ],
+  "condition": {
+    "drekkana_lords": [
+      "own sign",
+      "eleventh house",
+      "twelfth house"
+    ],
+    "arrangement_status": "reported variant",
+    "executable": false,
+    "missing_dependencies": [
+      "drekkana calculation",
+      "variant/default selection"
+    ]
+  },
+  "normalized_rule": "In the reported drekkana variant, the drekkanas are assigned as lords of the sign, eleventh house, and twelfth house.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "drekkana",
+    "divisional_lord",
+    "bhava"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a separate reported variant from the hora assignment; neither is selected as a universal default. This is a reported source variant, not a selected default.",
+  "source_terms": [
+    "drekkana",
+    "lagna",
+    "bhava"
+  ],
+  "transmission_notes": "The cited Wisdomlib page attributes the English rendering to Michael D. Neely (2007) and is copyrighted reference material. The passage does not establish a universal ayanamsha; coordinate and ayanamsha policy remain external inputs.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

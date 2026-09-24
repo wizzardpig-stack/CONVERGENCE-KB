@@ -1,0 +1,78 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-DASHA-RESULT-PORTIONS-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 8",
+    "verse": "8.3",
+    "page": null,
+    "section": "Dashas and Antar Dashas",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501689.html",
+    "short_quote": "situated in the same zodiac sign (as the dasha lord), it gives half; situated in a trikona zodiac sign, a 3rd; and situated in the 7th house, a 7th portion; situated in the 4th and 8th houses, one-fourth of the results"
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-DASHA",
+  "prerequisites": [
+    "dasha lord",
+    "planet placement"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "house order",
+    "dasha period",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy",
+    "normalization/common denominator",
+    "division procedure in the following verse"
+  ],
+  "condition": {
+    "result_portions": {
+      "same_sign": "one-half",
+      "trikona": "one-third",
+      "seventh": "one-seventh",
+      "fourth_or_eighth": "one-fourth"
+    },
+    "executable": false,
+    "missing_dependencies": [
+      "normalization/common denominator",
+      "division procedure in the following verse"
+    ]
+  },
+  "normalized_rule": "The Brihat Jataka translation states dasha-result portion associations of one-half for the same sign, one-third for a trikona, one-seventh for the seventh, and one-fourth for the fourth or eighth; the surrounding division procedure is not supplied here.",
+  "domains": [
+    "TIME"
+  ],
+  "concepts": [
+    "dasha_result",
+    "house_relation",
+    "fractional_calculation"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a compact result apportionment formula; it is not a complete dasha or antardasha implementation. The cited portion associations are preserved as a formula fragment, not exposed as a complete implementation.",
+  "source_terms": [
+    "dasha-phala",
+    "trikona",
+    "saptama",
+    "caturth",
+    "aṣṭama"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

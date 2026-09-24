@@ -1,0 +1,76 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-RASHI-LORDSHIP-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 1",
+    "verse": "1.6",
+    "page": null,
+    "section": "Zodiac Signs",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501569.html",
+    "short_quote": "Mars, Venus, Mercury, the Moon, the Sun, Mercury, Venus, Mars, Jupiter, Saturn, Saturn, Jupiter rule the portions of the zodiac signs"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-RASHI-LORDSHIP",
+  "prerequisites": [
+    "zodiac sign order"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy"
+  ],
+  "condition": {
+    "sequence_start": "Aries",
+    "sequence_end": "Pisces",
+    "lords": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Moon",
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Saturn",
+      "Jupiter"
+    ]
+  },
+  "normalized_rule": "Brihat Jataka assigns sign lords in the Aries-through-Pisces sequence: Mars, Venus, Mercury, Moon, Sun, Mercury, Venus, Mars, Jupiter, Saturn, Saturn, and Jupiter.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "sign_lordship",
+    "zodiac_sign",
+    "graha"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Retain the source sequence as one sign-lord taxonomy; do not substitute a later house-lord or dispositority formula.",
+  "source_terms": [
+    "rāśi",
+    "gṛha",
+    "lagna"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

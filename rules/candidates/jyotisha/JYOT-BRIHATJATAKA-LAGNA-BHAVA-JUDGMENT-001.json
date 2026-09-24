@@ -1,0 +1,81 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-LAGNA-BHAVA-JUDGMENT-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 20",
+    "verse": "20.10",
+    "page": null,
+    "section": "Houses",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501844.html",
+    "short_quote": "The result of a friend, enemy, neutral"
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-LAGNA-BHAVA",
+  "prerequisites": [
+    "Lagna",
+    "house placement",
+    "planet relationships"
+  ],
+  "calculation_dependencies": [
+    "Lagna",
+    "sign placement",
+    "planetary longitude",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy"
+  ],
+  "condition": {
+    "relationship_inputs": [
+      "friend",
+      "enemy",
+      "neutral",
+      "own sign",
+      "exaltation"
+    ],
+    "house_reference": "houses of the Lagna",
+    "polarity_inputs": [
+      "benefics",
+      "malefics"
+    ]
+  },
+  "normalized_rule": "Brihat Jataka directs judgment to combine planetary relationship and dignity categories with Lagna-relative houses and benefic/malefic polarity.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "lagna",
+    "bhava",
+    "planet_relationship",
+    "dignity",
+    "benefic_malefic"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a general natal judgment method, not a complete bhava outcome table.",
+  "source_terms": [
+    "lagna",
+    "bhava",
+    "suhṛt",
+    "śatru",
+    "sama",
+    "uchcha"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

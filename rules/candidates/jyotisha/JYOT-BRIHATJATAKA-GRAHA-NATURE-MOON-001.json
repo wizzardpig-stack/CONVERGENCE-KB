@@ -1,0 +1,56 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-GRAHA-NATURE-MOON-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 2",
+    "verse": "2.1",
+    "page": null,
+    "section": "Planets",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501584.html",
+    "short_quote": "the Moon is the mind"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-GRAHA-NATURE",
+  "prerequisites": [
+    "graha identity"
+  ],
+  "calculation_dependencies": [],
+  "condition": {
+    "graha": "Moon"
+  },
+  "normalized_rule": "Brihat Jataka characterizes the Moon as the mind.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "graha_nature",
+    "moon"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is one source-specific nature assignment from the common verse; do not expand it into a list of unrelated personality outcomes.",
+  "source_terms": [
+    "Moon",
+    "mind"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}
