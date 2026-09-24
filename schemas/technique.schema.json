@@ -3,18 +3,19 @@
   "$id":"https://convergence.local/schemas/technique.schema.json",
   "title":"CONVERGENCE Technique",
   "type":"object",
-  "additionalProperties":false,
-  "required":["technique_id","name","tradition","status","description","required_inputs","output_type"],
+  "additionalProperties":true,
+  "required":["technique_id","name","tradition","status","output_type"],
   "properties":{
     "technique_id":{"type":"string","pattern":"^[A-Z0-9][A-Z0-9_-]{4,79}$"},
     "name":{"type":"string"},
     "tradition":{"type":"string"},
     "school":{"type":["string","null"]},
     "status":{"enum":["planned","researching","implemented","validated","deprecated"]},
-    "description":{"type":"string"},
+    "description":{"type":["string","null"]},
     "required_inputs":{"type":"array","items":{"type":"string"}},
     "output_type":{"enum":["calculation","classification","timing","interpretation","relationship"]},
     "domains":{"type":"array","items":{"type":"string"}},
+    "notes":{"type":["string","null"]},
     "calculation_spec":{"type":["string","null"]},
     "validation_notes":{"type":["string","null"]}
   }
