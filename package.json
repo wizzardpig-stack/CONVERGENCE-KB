@@ -1,0 +1,9 @@
+{
+  "name": "convergence-kb",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Provenance-aware doctrine knowledge base for CONVERGENCE",
+  "scripts": {
+    "validate:kb": "node tests/validate_kb_node.mjs"
+  }
+}
