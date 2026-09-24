@@ -59,7 +59,7 @@
     "WEST-PTOLEMY-LOT-FORTUNE-PERUGIO-001"
   ],
   "synthesis_notes": "This is a traditional astrological point calculation within the cited transmission, not an astronomical measurement or a scientific claim.",
-  "review_notes": "The candidate records the main-text procedure without selecting a directional winner. The additional Perugio Latin instruction in footnote 144 is represented by a separate candidate and an active chart-changing conflict.",
+  "review_notes": "The candidate records the main-text procedure without selecting a directional winner. The additional Perugio Latin wording in footnote 144 is represented separately and linked through an open transmission-review record; the cited edition does not establish a chart-changing computational fork.",
   "source_terms": [
     "Part of Fortune",
     "prorogator",
@@ -67,7 +67,7 @@
     "order of the signs",
     "same relation"
   ],
-  "transmission_notes": "Ashmand's main text states the relational procedure for day and night; footnote 144 reports an additional Perugio Latin directional variant. The main-text shorthand and the footnote variant are retained without collapsing them. Certainty is confidence in this cited Ashmand/Proclus transmission, not in an autograph of Ptolemy.",
+  "transmission_notes": "Ashmand's main text states the relational procedure for day and night; footnote 144 reports additional Perugio Latin directional wording and says the related Cardan formulation is exactly equivalent. The main-text and footnote transmissions are retained without collapsing them. Certainty is confidence in this cited Ashmand/Proclus transmission, not in an autograph of Ptolemy.",
   "provenance": {
     "extracted_by": "convergence_doctrine_researcher",
     "extracted_at": "2026-09-24T04:10:54.585Z",

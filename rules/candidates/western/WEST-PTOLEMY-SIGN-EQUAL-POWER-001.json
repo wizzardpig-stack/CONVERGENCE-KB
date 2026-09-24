@@ -1,0 +1,67 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-EQUAL-POWER-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XVIII",
+    "verse": null,
+    "page": "26",
+    "section": "Signs Beholding Each Other, and of Equal Power",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_26",
+    "short_quote": "Any two signs, equally distant from either tropical sign, are equal to each other in power"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-FAMILIARITIES",
+  "prerequisites": [
+    "two zodiacal signs",
+    "tropical-sign reference"
+  ],
+  "calculation_dependencies": [
+    "equal distance from Cancer or Capricorn"
+  ],
+  "condition": {
+    "relationship": "equal distance from either tropical sign",
+    "tropical_references": [
+      "Cancer",
+      "Capricorn"
+    ],
+    "classification": "equal power"
+  },
+  "normalized_rule": "Classify two signs as equal in power when they are equally distant from either tropical sign.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "equal_power",
+    "sign_familiarity",
+    "tropical_sign",
+    "zodiacal_relationship"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sign relationship, not a claim about equal physical or psychological power.",
+  "review_notes": "The equal-power and beholding descriptions are separate propositions. The editorial discussion of parallels in footnote 46 is not imported into this candidate.",
+  "source_terms": [
+    "equal power",
+    "tropical sign",
+    "equally distant"
+  ],
+  "transmission_notes": "The rule is stated in the Ashmand/Proclus main text. Its meaning is limited to the source's sign relationship; later mundane-parallel terminology is excluded.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

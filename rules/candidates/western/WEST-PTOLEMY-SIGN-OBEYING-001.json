@@ -1,0 +1,73 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-OBEYING-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XVII",
+    "verse": null,
+    "page": "26; 28",
+    "section": "Signs Commanding and Obeying; cross-reference Chapter XX",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_26",
+    "short_quote": "those in the winter semicircle, obeying"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-FAMILIARITIES",
+  "prerequisites": [
+    "winter-semicircle identification",
+    "Chapter XVII equal-distance-from-equinoctial criterion",
+    "Chapter XX lunar-semicircle cross-reference"
+  ],
+  "calculation_dependencies": [
+    "sign position within the winter semicircle"
+  ],
+  "condition": {
+    "semicircle": "winter",
+    "sign_list_basis": "cross-chapter identification of winter with the lunar semicircle",
+    "signs": [
+      "Aquarius",
+      "Pisces",
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer"
+    ],
+    "classification": "obeying"
+  },
+  "normalized_rule": "Classify the signs in the winter semicircle as obeying; the Aquarius-to-Cancer list follows a cross-chapter lunar-semicircle identification.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "obeying_signs",
+    "sign_familiarity",
+    "winter_semicircle",
+    "zodiacal_relationship"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sign relationship, not a claim about social power or personality behavior.",
+  "review_notes": "The obeying definition is in Chapter XVII. The Aquarius-to-Cancer list is a cross-chapter inference from the lunar semicircle, while Chapter XVII's equal-distance-from-an-equinoctial criterion remains a separate relationship; no universal later interpretation is imported.",
+  "source_terms": [
+    "obeying",
+    "winter semicircle",
+    "lunar semicircle"
+  ],
+  "transmission_notes": "The obeying classification is stated in the Ashmand/Proclus main text; the explicit Aquarius-to-Cancer list is cross-referenced within Book I and is not an explicit equation in the cited passage. The equal-distance criterion is preserved separately.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

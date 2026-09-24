@@ -1,0 +1,66 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-DISSIMILARITY-DISSIPATION-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVI",
+    "verse": null,
+    "page": "38",
+    "section": "Faces, Chariots, and Other Similar Attributes of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_38",
+    "short_quote": "when a planet occupies a place adverse and dissimilar in condition to itself, much of its influence is dissipated and lost"
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-DISSIMILARITY",
+  "prerequisites": [
+    "planet's occupied zodiacal place",
+    "planet's own condition"
+  ],
+  "calculation_dependencies": [
+    "comparison of the occupied sign's condition with the planet's condition"
+  ],
+  "condition": {
+    "body": "planet",
+    "occupied_sign_condition": "adverse and dissimilar to the planet",
+    "source_consequence": "much influence is dissipated and lost"
+  },
+  "normalized_rule": "When a planet occupies a sign adverse and dissimilar to its own condition, classify much of its influence as dissipated and lost.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "sign_dissimilarity",
+    "influence_dissipation",
+    "planetary_condition",
+    "sign_condition"
+  ],
+  "polarity": "challenging",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a traditional astrological influence rule, not a psychological or scientific claim about a person's behavior.",
+  "review_notes": "Keep this adverse/dissimilar-sign condition separate from generic maltreatment, proper face, and rejoicing; the source describes a sign-condition interaction.",
+  "source_terms": [
+    "adverse",
+    "dissimilar",
+    "influence",
+    "dissipated",
+    "lost"
+  ],
+  "transmission_notes": "The consequence is stated in the Ashmand/Proclus main text. The rule preserves the source's influence language and does not import later maltreatment terminology.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-CONFIGURATIONS-TRINE-HARMONIOUS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XVI",
+    "verse": null,
+    "page": "26",
+    "section": "Mutual Configurations of the Signs; sign-kind cross-reference Chapter XV",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_26",
+    "short_quote": "the trine and the sextile are each called harmonious, because they are constituted between signs of the same kind"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-CONFIGURATIONS",
+  "prerequisites": [
+    "trine configuration",
+    "source sign-kind classification (gender mapping unresolved)",
+    "Chapter XV sign-kind arrangement (unresolved)"
+  ],
+  "calculation_dependencies": [
+    "zodiacal distance of a trine",
+    "comparison of the source's sign-kind or nature classification"
+  ],
+  "condition": {
+    "configuration": "trine",
+    "sign_relationship": "same kind as stated in Chapter XVI; Chapter XV mapping unresolved",
+    "sign_gender_variant": "unresolved across Chapter XV arrangements",
+    "classification": "harmonious"
+  },
+  "normalized_rule": "Classify a trine as harmonious when it joins signs the source calls of the same kind.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "trine",
+    "harmonious_configuration",
+    "sign_kind",
+    "zodiacal_configuration"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [
+    "WEST-PTOLEMY-SIGN-GENDER-MASCULINE-001",
+    "WEST-PTOLEMY-SIGN-GENDER-FEMININE-001"
+  ],
+  "synthesis_notes": "This is a source-specific sign-configuration classification, not a scientific compatibility claim.",
+  "review_notes": "The Chapter XVI harmonious label is retained, but its same-kind condition cannot be mapped to one Chapter XV sign-gender arrangement without resolving CONFLICT-PTOLEMY-SIGN-KIND-001. No universal sign-gender scheme is selected.",
+  "source_terms": [
+    "trine",
+    "harmonious",
+    "same kind"
+  ],
+  "transmission_notes": "The label is in the Ashmand/Proclus main text. The source's 'same kind' wording is retained without mapping it to the Chapter XV masculine/feminine sequence; that mapping remains unresolved in CONFLICT-PTOLEMY-SIGN-KIND-001.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

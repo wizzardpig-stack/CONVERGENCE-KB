@@ -1,0 +1,67 @@
+{
+  "rule_id": "WEST-PTOLEMY-PROPER-CHARIOT-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXVI",
+    "verse": null,
+    "page": "37",
+    "section": "Faces, Chariots, and Other Similar Attributes of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_37",
+    "short_quote": "when it holds familiarity with the place which it actually occupies by two, or more, of the prescribed modes of connection"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-PROPER-CHARIOT",
+  "prerequisites": [
+    "planet's occupied zodiacal place",
+    "prescribed sign-connection modes"
+  ],
+  "calculation_dependencies": [
+    "count of familiar connection modes between the planet and its occupied place"
+  ],
+  "condition": {
+    "body": "planet",
+    "occupied_place_familiarity_modes": {
+      "minimum": 2
+    },
+    "classification": "proper chariot or throne"
+  },
+  "normalized_rule": "Classify a planet as properly charioted when its occupied sign is connected to it through at least two prescribed modes of familiarity.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "proper_chariot",
+    "sign_familiarity",
+    "planetary_condition",
+    "prescribed_connection"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific planetary classification, not a claim about social status or later house-planet joy.",
+  "review_notes": "The source's chariot/throne terminology is separate from proper face, rejoicing, and the later planetary-joy technique. The count of familiar connection modes is kept explicit.",
+  "source_terms": [
+    "proper chariot",
+    "throne",
+    "triumphantly situated",
+    "two, or more, of the prescribed modes of connection"
+  ],
+  "transmission_notes": "The condition is stated in the Ashmand/Proclus main text. 'Chariot' and 'throne' are retained as source-era terms and are not silently mapped to later dignity categories.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

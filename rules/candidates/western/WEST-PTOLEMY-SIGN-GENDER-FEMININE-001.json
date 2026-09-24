@@ -1,0 +1,77 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-GENDER-FEMININE-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XV",
+    "verse": null,
+    "page": "23-24",
+    "section": "Masculine and Feminine Signs",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_23",
+    "short_quote": "six are called masculine and diurnal, and six feminine and nocturnal ... arranged in alternate order"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-GENDER",
+  "prerequisites": [
+    "Aries-origin zodiac order",
+    "alternating sign-gender arrangement"
+  ],
+  "calculation_dependencies": [
+    "sign position in the source's alternating sequence"
+  ],
+  "condition": {
+    "arrangement": "Aries-origin alternating arrangement",
+    "classification": "feminine and nocturnal",
+    "signs": [
+      "Taurus",
+      "Cancer",
+      "Virgo",
+      "Scorpio",
+      "Capricorn",
+      "Pisces"
+    ]
+  },
+  "normalized_rule": "Under the Aries-origin alternating arrangement, classify Taurus, Cancer, Virgo, Scorpio, Capricorn, and Pisces as feminine and nocturnal signs.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "feminine_signs",
+    "nocturnal_signs",
+    "sign_gender",
+    "zodiac_order"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-TRINE-HARMONIOUS-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-SEXTILE-HARMONIOUS-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-OPPOSITION-DISCORDANT-001",
+    "WEST-PTOLEMY-SIGN-CONFIGURATIONS-QUARTILE-DISCORDANT-001"
+  ],
+  "synthesis_notes": "This is a source-specific sign-gender taxonomy, not a claim about human gender or scientific compatibility.",
+  "review_notes": "This rule is limited to the Aries-origin alternating arrangement. Chapter XV also reports Ascendant/Moon-relative and horizon-quadrant alternatives; none is selected here.",
+  "source_terms": [
+    "feminine and nocturnal",
+    "alternate order",
+    "Aries",
+    "Libra"
+  ],
+  "transmission_notes": "The main-text Aries-origin arrangement is recorded separately from the alternative arrangements explicitly reported later in Chapter XV. Chapter XVI's same/different-kind configuration language is not reconciled with this sequence; see CONFLICT-PTOLEMY-SIGN-KIND-001. The source-era labels are not modern identity claims.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

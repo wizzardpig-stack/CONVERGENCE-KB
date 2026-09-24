@@ -51,6 +51,7 @@
   "synthesis_notes": "This is a source-specific solar-relation classification, not a later generic orientality rule.",
   "review_notes": "Keep separate from the horizon-quadrant oriental/occidental classification in the same chapter; the two source statements are not interchangeable.",
   "source_terms": [
+    "stars",
     "matutine",
     "vespertine",
     "preceding the Sun",
@@ -58,7 +59,7 @@
     "masculine",
     "feminine"
   ],
-  "transmission_notes": "This is the Sun-relative masculine/feminine passage in the Ashmand/Proclus transmission. It is distinct from the following horizon-quadrant statement; certainty is not certainty about an autograph of Ptolemy.",
+  "transmission_notes": "The source says 'stars'; the normalized rule uses 'planet' for the chapter's planetary context without importing a fixed-star claim. This is the Sun-relative masculine/feminine passage in the Ashmand/Proclus transmission and is distinct from the following horizon-quadrant statement.",
   "provenance": {
     "extracted_by": "convergence_doctrine_researcher",
     "extracted_at": "2026-09-24T04:50:39.088Z",

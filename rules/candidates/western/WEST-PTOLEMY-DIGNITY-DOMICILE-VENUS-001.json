@@ -10,36 +10,31 @@
     "book": "Book I",
     "chapter": "Chapter XX",
     "verse": null,
-    "page": "28-29",
-    "section": "Houses of the Planets; footnote 49",
-    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_28",
+    "page": "29",
+    "section": "Houses of the Planets",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_29",
     "short_quote": "Venus ... takes the next two signs, Taurus and Libra"
   },
   "claim_type": "classification_rule",
   "technique_id": "WEST-DIGNITY-DOMICILE",
   "prerequisites": [
-    "Venus identity",
-    "main-text two-house assignment",
-    "footnote 49 day/night ordering"
+    "Venus identity"
   ],
   "calculation_dependencies": [],
   "condition": {
     "planet": "Venus",
-    "house_assignments": {
-      "day": "Taurus",
-      "night": "Libra"
-    },
-    "house_pair_source": "Book I Chapter XX main text",
-    "day_night_order_source": "edition footnote 49"
+    "house_pair": [
+      "Taurus",
+      "Libra"
+    ]
   },
-  "normalized_rule": "Ptolemy's Chapter XX assigns Venus the two houses Taurus and Libra; the cited edition's footnote 49 orders Taurus as day and Libra as night.",
+  "normalized_rule": "Ptolemy's Chapter XX assigns Venus the two houses Taurus and Libra.",
   "domains": [
     "SELF"
   ],
   "concepts": [
     "domicile",
     "planetary_house",
-    "day_night_house",
     "venus"
   ],
   "polarity": "neutral",
@@ -49,15 +44,13 @@
   "corroborates": [],
   "conflicts_with": [],
   "synthesis_notes": "This is a source-specific house lookup, not a guaranteed personality or event outcome.",
-  "review_notes": "Pairs with the existing Sun and Moon house rules. The main text supports Venus's two signs; the day/night order is an edition footnote/modern overlay, not silently attributed to Ptolemy. 'Domicile' remains normalized technique vocabulary.",
+  "review_notes": "The main text supports Venus's two-sign house pair. The Whalley/modern day-night ordering is recorded in a separate editorial candidate; 'domicile' remains normalized technique vocabulary.",
   "source_terms": [
     "house",
-    "day house",
-    "night house",
     "Taurus",
     "Libra"
   ],
-  "transmission_notes": "Chapter XX's main text assigns Venus's two signs. Footnote 49 says the day/night table is from Whalley and also found in modern writers; preserve that editorial/modern overlay separately from the Ptolemaic two-house assignment.",
+  "transmission_notes": "The cited main text assigns Venus's two signs as houses. The separate editorial day/night ordering is preserved in a source-specific footnote candidate and is not silently attributed to Ptolemy.",
   "provenance": {
     "extracted_by": "convergence_doctrine_researcher",
     "extracted_at": "2026-09-24T05:40:47.573Z",

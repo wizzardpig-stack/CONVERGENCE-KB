@@ -12,7 +12,7 @@
   "resolution_policy": "preserve_variants",
   "default_rule_id": null,
   "default_rationale": null,
-  "user_facing_note": "Select and disclose the term system; do not flatten Egyptian, Chaldaic, and Ptolemaic allocations into a single result.",
+  "user_facing_note": "These are source-fragment method descriptions; disclose the selected term system only after implementation review, and do not treat the Egyptian totals or Chaldaic sequence as a complete executable table.",
   "status": "open",
   "reviewed_by": null,
   "reviewed_at": null

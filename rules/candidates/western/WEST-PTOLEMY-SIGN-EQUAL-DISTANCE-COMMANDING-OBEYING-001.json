@@ -1,0 +1,64 @@
+{
+  "rule_id": "WEST-PTOLEMY-SIGN-EQUAL-DISTANCE-COMMANDING-OBEYING-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XVII",
+    "verse": null,
+    "page": "26",
+    "section": "Signs Commanding and Obeying",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_26",
+    "short_quote": "Any two signs configurated with each other at an equal distance from the same, or from either equinoctial point, are termed commanding and obeying"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-SIGN-FAMILIARITIES",
+  "prerequisites": [
+    "two zodiacal signs",
+    "equinoctial reference point"
+  ],
+  "calculation_dependencies": [
+    "equal zodiacal distance from an equinoctial point"
+  ],
+  "condition": {
+    "relationship": "equal distance from the same or either equinoctial point",
+    "classification": "commanding and obeying"
+  },
+  "normalized_rule": "Classify two signs equally distant from the same or either equinoctial point as commanding and obeying.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "commanding_obeying",
+    "sign_familiarity",
+    "equinoctial_point",
+    "equal_distance"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sign relationship, not a claim about social power or personality behavior.",
+  "review_notes": "This rule records Chapter XVII's equal-distance criterion separately from the summer/winter semicircle lists. The source does not explicitly equate those lists with solar/lunar terminology.",
+  "source_terms": [
+    "commanding",
+    "obeying",
+    "equal distance",
+    "equinoctial point"
+  ],
+  "transmission_notes": "The equal-distance criterion is explicit in the Ashmand/Proclus main text. It is kept separate from the cross-chapter summer/winter sign-list identification and from later sign-familiarity systems.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

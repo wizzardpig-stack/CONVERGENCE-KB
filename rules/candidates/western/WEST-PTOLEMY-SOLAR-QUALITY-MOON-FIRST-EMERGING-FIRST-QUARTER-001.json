@@ -1,0 +1,66 @@
+{
+  "rule_id": "WEST-PTOLEMY-SOLAR-QUALITY-MOON-FIRST-EMERGING-FIRST-QUARTER-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter VIII",
+    "verse": null,
+    "page": "16",
+    "section": "The Influence of Position with Regard to the Sun",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_16",
+    "short_quote": "The Moon, during her increase, from her first emerging to her first quarter, produces chiefly moisture"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-PLANETARY-QUALITIES",
+  "prerequisites": [
+    "Moon phase interval",
+    "Sun-relative position"
+  ],
+  "calculation_dependencies": [
+    "Moon's emergence and quarter phase boundaries"
+  ],
+  "condition": {
+    "body": "Moon",
+    "phase_interval": "first emerging to first quarter",
+    "quality": "chiefly moisture-producing"
+  },
+  "normalized_rule": "From the Moon's first emergence through first quarter, classify her quality as chiefly moisture-producing.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "solar_position_quality",
+    "lunar_phase",
+    "moisture",
+    "moon"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a position-conditioned traditional quality, not a modern astronomical measurement or natal outcome.",
+  "review_notes": "Keep the four lunar phase-quality rules separate. The source's phase terms are retained without importing later lunar interpretation.",
+  "source_terms": [
+    "Moon",
+    "increase",
+    "first emerging",
+    "first quarter",
+    "moisture"
+  ],
+  "transmission_notes": "The phase interval and quality are in the Ashmand/Proclus main text. Editorial definitions of stations or later phase terminology are not added to this rule.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

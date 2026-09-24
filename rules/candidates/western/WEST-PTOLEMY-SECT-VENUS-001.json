@@ -1,0 +1,56 @@
+{
+  "rule_id": "WEST-PTOLEMY-SECT-VENUS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter VII",
+    "verse": null,
+    "page": "15",
+    "section": "Diurnal and Nocturnal",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_15",
+    "short_quote": "the Moon and Venus are esteemed to be nocturnal"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-SECT",
+  "prerequisites": [],
+  "calculation_dependencies": [],
+  "condition": {
+    "planet": "Venus",
+    "sect_assignment": "nocturnal"
+  },
+  "normalized_rule": "Within Ptolemy's sect scheme, classify Venus as nocturnal.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "sect",
+    "nocturnality",
+    "venus"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific sect classification, not a complete universal sect implementation.",
+  "review_notes": "Pairs with the existing Mercury, Saturn, and Mars sect rules. Same-source relationships are not independent corroboration.",
+  "source_terms": [
+    "nocturnal",
+    "Venus"
+  ],
+  "transmission_notes": "The assignment is stated in the Ashmand/Proclus main text. The chart-hemisphere qualification in the edition's Whalley footnote is not silently included.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T06:24:28.103Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}
