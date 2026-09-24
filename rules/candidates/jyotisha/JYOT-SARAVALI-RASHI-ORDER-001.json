@@ -1,0 +1,82 @@
+{
+  "rule_id": "JYOT-SARAVALI-RASHI-ORDER-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 3",
+    "verse": "3.3",
+    "page": null,
+    "section": "Sign order",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-RASHI-CATEGORIES",
+  "prerequisites": [
+    "zodiac sign order"
+  ],
+  "calculation_dependencies": [
+    "sign identification"
+  ],
+  "condition": {
+    "order": [
+      "Mesha",
+      "Vrishabha",
+      "Mithuna",
+      "Karka",
+      "Simha",
+      "Kanya",
+      "Tula",
+      "Vrishchika",
+      "Dhanu",
+      "Makara",
+      "Kumbha",
+      "Mina"
+    ]
+  },
+  "normalized_rule": "Saravali 3.3 lists the zodiac in the order Mesha, Vrishabha, Mithuna, Karka, Simha, Kanya, Tula, Vrishchika, Dhanu, Makara, Kumbha, and Mina.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "zodiac_order",
+    "rashi",
+    "sign_identification"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Saravali source-specific sign-order lookup, not a universal zodiac calculation policy.",
+  "review_notes": "The sign names and order are retained from 3.3; no later modality table is added.",
+  "source_terms": [
+    "Mesha",
+    "Vrishabha",
+    "Mithuna",
+    "Karka",
+    "Simha",
+    "Kanya",
+    "Tula",
+    "Vrishchika",
+    "Dhanu",
+    "Makara",
+    "Kumbha",
+    "Mina"
+  ],
+  "transmission_notes": "The 1907 Sanskrit/Devanagari first-edition scan is OCR-imperfect; normalized wording is original and no bulk source text is stored.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

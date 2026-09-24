@@ -1,0 +1,78 @@
+{
+  "rule_id": "JYOT-SARAVALI-BENEFIC-MALEFIC-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 4",
+    "verse": "4.9",
+    "page": null,
+    "section": "Graha yoni",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-NATURAL-BENEFIC-MALEFIC",
+  "prerequisites": [
+    "planet identity"
+  ],
+  "calculation_dependencies": [
+    "planet placement",
+    "strength"
+  ],
+  "condition": {
+    "benefic_group": [
+      "Moon (source qualification)",
+      "Jupiter",
+      "Venus",
+      "Mercury"
+    ],
+    "malefic_group": [
+      "Sun",
+      "Mars",
+      "Saturn"
+    ],
+    "other_node": "Rahu with the cited source qualification"
+  },
+  "normalized_rule": "Saravali 4.9 groups the qualified Moon, Jupiter, Venus, and Mercury as benefic, and the Sun, Mars, Saturn, and the cited Rahu qualification as malefic.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "benefic_malefic",
+    "graha_nature"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The explicit 4.9 grouping is encoded; later strength and placement qualifications are not folded into this classification.",
+  "source_terms": [
+    "Guru",
+    "Shukra",
+    "Budha",
+    "Chandra",
+    "Sūrya",
+    "Mangala",
+    "Shani",
+    "Rāhu",
+    "Śubha",
+    "Pāpa"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

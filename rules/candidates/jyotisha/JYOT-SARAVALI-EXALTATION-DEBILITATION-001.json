@@ -1,0 +1,76 @@
+{
+  "rule_id": "JYOT-SARAVALI-EXALTATION-DEBILITATION-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 5",
+    "verse": "5.21-5.26",
+    "page": null,
+    "section": "Mixed yoga: exaltation and depression",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "JYOT-SARAVALI-GRAHA-DIGNITY",
+  "prerequisites": [
+    "planet identity",
+    "sign placement"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "house calculation"
+  ],
+  "condition": {
+    "inputs": [
+      "exaltation degree",
+      "depression sign/degree",
+      "planet placement"
+    ],
+    "exact_degree_table": false,
+    "executable": false,
+    "missing_dependencies": [
+      "verified Sanskrit degree table",
+      "ayanamsha/coordinate policy"
+    ]
+  },
+  "normalized_rule": "Saravali gives source-specific degree portions for a planet placed in exaltation and distinguishes exaltation from depression placement; the damaged degree numerals remain non-executable until collated.",
+  "domains": [
+    "SELF",
+    "CAREER"
+  ],
+  "concepts": [
+    "exaltation",
+    "depression",
+    "degree",
+    "dignity"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The sign-lord comparison is kept in the separate sign-lord-strength rule; this candidate covers only the cited exaltation/depression material.",
+  "source_terms": [
+    "Uchcha",
+    "Neecha",
+    "Bhaga",
+    "Rāśi",
+    "Graha"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

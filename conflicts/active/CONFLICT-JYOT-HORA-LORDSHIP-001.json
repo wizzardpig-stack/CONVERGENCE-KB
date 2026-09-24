@@ -1,0 +1,18 @@
+{
+  "conflict_id": "CONFLICT-JYOT-HORA-LORDSHIP-001",
+  "rule_ids": [
+    "JYOT-BRIHATJATAKA-HORA-LORDSHIP-001",
+    "JYOT-PHALADEEPIKA-HORA-OWNERSHIP-001"
+  ],
+  "conflict_type": "calculation_method",
+  "description": "The source traditions use different Hora lordship procedures, which changes the divisional lord assigned to a planet.",
+  "why_they_differ": "The Brihat Jataka candidate reports a sign-lord/eleventh-house-lord Hora variant; the Phaladeepika passage assigns the two halves to the Sun and Moon with parity reversal. These are not merely translation variants because the owner set and calculation behavior differ.",
+  "materiality": "chart_changing",
+  "resolution_policy": "preserve_variants",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Expose the selected Hora convention and do not mix results across it.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}

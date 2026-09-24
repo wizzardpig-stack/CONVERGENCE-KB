@@ -1,0 +1,18 @@
+{
+  "conflict_id": "CONFLICT-JYOT-DAY-NIGHT-STRENGTH-001",
+  "rule_ids": [
+    "JYOT-BRIHATJATAKA-GRAHA-TEMPORAL-STRENGTH-001",
+    "JYOT-PHALADEEPIKA-DAY-NIGHT-STRENGTH-001"
+  ],
+  "conflict_type": "doctrinal",
+  "description": "The source traditions assign Venus and Saturn to different day/night temporal-strength categories, so the assignments cannot be treated as one corroborating rule.",
+  "why_they_differ": "Phaladeepika IV.1 names Mars, Moon, and Venus as night-strong, while the Brihat Jataka candidate names Moon, Mars, and Saturn as night-strong; the source-specific variants are preserved without selecting a default.",
+  "materiality": "major",
+  "resolution_policy": "preserve_variants",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Expose the selected source variant; do not merge the temporal-strength lists.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}

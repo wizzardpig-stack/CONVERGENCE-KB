@@ -1,0 +1,78 @@
+{
+  "rule_id": "JYOT-SARAVALI-KARAKA-COMBINATION-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 6",
+    "verse": "6.1-6.3",
+    "page": null,
+    "section": "Karaka",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-NATAL-JUDGMENT",
+  "prerequisites": [
+    "planet positions",
+    "house calculation"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "qualifying_placements": [
+      "own sign",
+      "trikona",
+      "kendra"
+    ],
+    "relationship": "mutual",
+    "source_examples": "Sun/Moon and other cited graha pairs",
+    "executable": false,
+    "missing_dependencies": [
+      "complete mutual-karaka relation convention"
+    ]
+  },
+  "normalized_rule": "Saravali says grahas placed in their own sign, a trikona, or a kendra and related to one another become mutual karakas; the source gives attributed examples rather than a complete pair table.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY",
+    "FAMILY"
+  ],
+  "concepts": [
+    "karaka",
+    "own_sign",
+    "trikona",
+    "kendra",
+    "mutual_relation"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The source alternatives and examples are retained without inventing a complete mutual-karaka matrix.",
+  "source_terms": [
+    "Karaka",
+    "Kendra",
+    "Trikona",
+    "Tanu"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

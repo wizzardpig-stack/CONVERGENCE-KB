@@ -1,0 +1,72 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-BHAVA-LATE-HOUSES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.14-1.16",
+    "page": null,
+    "section": "Definitions: ninth through twelfth bhavas",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-BHAVA",
+  "prerequisites": [
+    "house calculation"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "houses": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "normalized_rule": "The source associates the ninth bhava with fortune, religion, and auspicious activity; the tenth with rank, occupation, and livelihood; the eleventh with gains; and the twelfth with loss and expenditure.",
+  "domains": [
+    "PURPOSE",
+    "CAREER",
+    "MONEY"
+  ],
+  "concepts": [
+    "bhava",
+    "dharma",
+    "career",
+    "gains",
+    "loss"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "The source lookup is retained without adding a later “release” or psychological framing.",
+  "source_terms": [
+    "Dharma",
+    "Karma",
+    "Labha",
+    "Vyaya",
+    "Rāga"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

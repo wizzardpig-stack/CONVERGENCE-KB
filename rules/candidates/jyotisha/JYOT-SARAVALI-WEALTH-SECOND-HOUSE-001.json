@@ -1,0 +1,74 @@
+{
+  "rule_id": "JYOT-SARAVALI-WEALTH-SECOND-HOUSE-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 34",
+    "verse": "34.15-34.20",
+    "page": null,
+    "section": "Dhana-cintana: second-house conditions",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-SARAVALI-WEALTH",
+  "prerequisites": [
+    "second-house placement",
+    "planet condition"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet placement",
+    "planet strength"
+  ],
+  "condition": {
+    "inputs": [
+      "second-house graha",
+      "benefic/malefic condition",
+      "planet strength"
+    ],
+    "executable": false,
+    "missing_dependencies": [
+      "complete house-lord and strength procedure"
+    ]
+  },
+  "normalized_rule": "In the cited Saravali wealth passage, grahas in the second house and their benefic or adverse conditions are weighed when describing wealth; this is not a universal karaka algorithm.",
+  "domains": [
+    "MONEY"
+  ],
+  "concepts": [
+    "wealth",
+    "second_house",
+    "planet_condition",
+    "benefic_malefic"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The locator is limited to the second-house verses; the later 34.21-34.24 material is deferred.",
+  "source_terms": [
+    "Dhana",
+    "Dvitīya",
+    "Mitra",
+    "Graha",
+    "Rāśi"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

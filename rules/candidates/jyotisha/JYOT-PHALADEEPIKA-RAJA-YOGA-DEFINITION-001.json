@@ -1,0 +1,67 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-RAJA-YOGA-DEFINITION-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 6",
+    "verse": "6.37",
+    "page": null,
+    "section": "Yogas: Raja Yoga",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-YOGA",
+  "prerequisites": [
+    "house lords",
+    "house placement"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "condition": "lords of the ninth and tenth conjoined in an auspicious bhava"
+  },
+  "normalized_rule": "The source defines Raja Yoga by conjunction of the ninth- and tenth-house lords in an auspicious bhava.",
+  "domains": [
+    "CAREER",
+    "PURPOSE",
+    "MONEY",
+    "SELF"
+  ],
+  "concepts": [
+    "yoga",
+    "house_lord",
+    "auspicious_bhava"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Candidate definition extracted from the cited Raja Yoga passage; the Sankha definition is kept in a separate rule.",
+  "source_terms": [
+    "Raja Yoga",
+    "Sankha",
+    "Trikona",
+    "Kendra",
+    "Bhava"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

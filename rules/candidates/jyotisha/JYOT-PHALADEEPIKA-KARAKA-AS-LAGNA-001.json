@@ -1,0 +1,68 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-KARAKA-AS-LAGNA-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 15",
+    "verse": "15.20-15.23",
+    "page": null,
+    "section": "Karaka method",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-NATAL-JUDGMENT",
+  "prerequisites": [
+    "karaka identity",
+    "planet sign",
+    "house calculation"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "method": "treat the sign occupied by a relation's karaka as a temporary Lagna and read its twelve bhavas"
+  },
+  "normalized_rule": "The source directs that a relation be judged by treating the sign occupied by that relation's karaka as a temporary Lagna and reading the twelve houses from it.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY",
+    "LOVE",
+    "FAMILY"
+  ],
+  "concepts": [
+    "karaka",
+    "bhava_judgment",
+    "temporary_lagna"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a source-specific relation-analysis method; do not merge it with Jaimini karaka or arudha procedures.",
+  "source_terms": [
+    "Karaka",
+    "Lagna",
+    "Bhava",
+    "Graha"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "rule_id": "JYOT-SARAVALI-MIXED-STATE-CATEGORIES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 5",
+    "verse": "5.2-5.4",
+    "page": null,
+    "section": "Mixed yoga",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-GRAHA-DIGNITY",
+  "prerequisites": [
+    "planet placement",
+    "planet strength"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet strength"
+  ],
+  "condition": {
+    "states": [
+      "bright",
+      "healthy",
+      "calm",
+      "strong",
+      "oppressed",
+      "afraid",
+      "deformed",
+      "Muditā",
+      "Khala"
+    ]
+  },
+  "normalized_rule": "Saravali 5.2-5.4 gives nine graha-state categories: bright, healthy, calm, strong, oppressed, afraid, deformed, Muditā, and Khala.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "planet_state",
+    "dignity",
+    "mixed_condition"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "low",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The nine state labels are kept aligned with the cited 5.2-4 passage; no later Avastha table is imported.",
+  "source_terms": [
+    "Dīpta",
+    "Svastha",
+    "Śānta",
+    "Śakta",
+    "Nipīḍita",
+    "Bhīta",
+    "Vikala",
+    "Muditā",
+    "Khala"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

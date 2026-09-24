@@ -1,0 +1,79 @@
+{
+  "rule_id": "JYOT-SARAVALI-VOCATION-10TH-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 33",
+    "verse": "33.1-33.5",
+    "page": null,
+    "section": "Karma-cintana",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-SARAVALI-VOCATION",
+  "prerequisites": [
+    "Lagna-relative house order",
+    "tenth-house sign",
+    "planet strength"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "sign classification",
+    "planet strength"
+  ],
+  "condition": {
+    "inputs": [
+      "tenth house",
+      "tenth sign",
+      "sign/living form",
+      "strength of the tenth lord"
+    ],
+    "executable": false,
+    "missing_dependencies": [
+      "complete time-lord and strength conventions"
+    ]
+  },
+  "normalized_rule": "Saravali directs the reader to judge the tenth-house sign, the strength of its lord, and the sign's living form when describing karma.",
+  "domains": [
+    "CAREER",
+    "PURPOSE",
+    "MONEY"
+  ],
+  "concepts": [
+    "vocation",
+    "tenth_house",
+    "tenth_sign",
+    "living_form",
+    "planet_strength"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Ch. 33.1-5 supports the tenth-house/sign, lord-strength, and living-form procedure; no exaltation, own-sign, or Sun/Moon comparison is encoded.",
+  "source_terms": [
+    "Karma",
+    "Dasama",
+    "Rashi",
+    "Graha",
+    "Bala"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

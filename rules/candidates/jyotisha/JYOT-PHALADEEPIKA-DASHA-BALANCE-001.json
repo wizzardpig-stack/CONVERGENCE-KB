@@ -1,0 +1,74 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-DASHA-BALANCE-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 19",
+    "verse": "19.3",
+    "page": null,
+    "section": "Dasha balance",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-DASHA",
+  "prerequisites": [
+    "birth nakshatra",
+    "Moon longitude",
+    "planet years"
+  ],
+  "calculation_dependencies": [
+    "nakshatra calculation",
+    "Moon longitude",
+    "dasha calculation"
+  ],
+  "condition": {
+    "inputs": [
+      "remaining Moon ghatikas in birth nakshatra",
+      "planet years",
+      "60 ghatikas per year"
+    ],
+    "executable": false,
+    "missing_dependencies": [
+      "verified longitude/ayanamsha and ghatika conversion"
+    ]
+  },
+  "normalized_rule": "The source calculates the balance of a dasha by multiplying the remaining ghatikas in the birth nakshatra by the dasha lord's years, dividing by 60, and converting the remainder into months, days, and finer units.",
+  "domains": [
+    "TIME"
+  ],
+  "concepts": [
+    "dasha",
+    "balance",
+    "ghatika",
+    "calculation"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The formula is preserved as a source procedure; implementation must separately lock longitude, ayanamsha, and time-unit conventions.",
+  "source_terms": [
+    "Dasha",
+    "Ghatika",
+    "Chandra",
+    "Graha"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

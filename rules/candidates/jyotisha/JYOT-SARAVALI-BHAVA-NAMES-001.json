@@ -1,0 +1,82 @@
+{
+  "rule_id": "JYOT-SARAVALI-BHAVA-NAMES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 3",
+    "verse": "3.28-3.31",
+    "page": null,
+    "section": "Bhava names",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-BHAVA",
+  "prerequisites": [
+    "Lagna-relative house order"
+  ],
+  "calculation_dependencies": [
+    "house calculation"
+  ],
+  "condition": {
+    "names": {
+      "tanu": "first",
+      "sambandha": "second",
+      "tattva": "third",
+      "sukha": "fourth",
+      "putra": "fifth",
+      "ari": "sixth",
+      "kalatra": "seventh",
+      "vairamya": "eighth",
+      "dharma": "ninth",
+      "karma": "tenth",
+      "labha": "eleventh",
+      "vyaya": "twelfth"
+    }
+  },
+  "normalized_rule": "Saravali 3.28-3.31 lists the first through twelfth bhava names as Tanu, Sambandha, Tattva, Sukha, Putra, Ari, Kalatra, Vairamya, Dharma, Karma, Labha, and Vyaya.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "bhava",
+    "house_names",
+    "house_order"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific bhava-name lookup, not a universal house-signification table.",
+  "review_notes": "The names and order are retained from 3.28-3.31; later outcome tables are separate.",
+  "source_terms": [
+    "Tanu",
+    "Sambandha",
+    "Tattva",
+    "Sukha",
+    "Putra",
+    "Ari",
+    "Kalatra",
+    "Vairamya",
+    "Dharma",
+    "Karma",
+    "Labha",
+    "Vyaya"
+  ],
+  "transmission_notes": "The 1907 Sanskrit/Devanagari first-edition scan is OCR-imperfect; normalized wording is original and no bulk source text is stored.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-MOON-YOGA-DEFINITIONS-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 6",
+    "verse": "6.5",
+    "page": null,
+    "section": "Moon yogas",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-YOGA",
+  "prerequisites": [
+    "Moon sign",
+    "planet placement",
+    "house calculation"
+  ],
+  "calculation_dependencies": [
+    "Moon sign",
+    "house calculation"
+  ],
+  "condition": {
+    "yogas": {
+      "Sunapha": "non-Sun planets in the second from Moon",
+      "Anapha": "non-Sun planets in the twelfth from Moon",
+      "Durudhara": "non-Sun planets in both second and twelfth from Moon",
+      "Kemadruma": "absence of the three Moon yogas"
+    },
+    "kemadruma_qualification": [
+      "kendra or associated planet",
+      "planet occupying a kendra from the Moon"
+    ]
+  },
+  "normalized_rule": "From the Moon, non-Sun planets in the second, twelfth, or both houses define Sunapha, Anapha, and Durudhara; the source qualifies Kemadruma with kendra/associated-planet alternatives.",
+  "domains": [
+    "SELF",
+    "CAREER"
+  ],
+  "concepts": [
+    "yoga",
+    "moon",
+    "house_relation"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [
+    "JYOT-BRIHATJATAKA-SUNAPHA-001",
+    "JYOT-BRIHATJATAKA-ANAPHA-001",
+    "JYOT-BRIHATJATAKA-DURUDHARA-001"
+  ],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "The Kemadruma alternatives remain source-qualified in this lookup table; do not treat them as a universal override.",
+  "source_terms": [
+    "Sunapha",
+    "Anapha",
+    "Durudhāra",
+    "Kemadruma",
+    "Chandra"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

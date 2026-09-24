@@ -58,7 +58,9 @@
   "empirical_status": "traditional_doctrine",
   "textual_certainty": "medium",
   "corroborates": [],
-  "conflicts_with": [],
+  "conflicts_with": [
+    "JYOT-PHALADEEPIKA-DAY-NIGHT-STRENGTH-001"
+  ],
   "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
   "review_notes": "This is a source-specific temporal condition, not a general sect or later Jyotisha rule. The source assignment is preserved without importing a later sect implementation.",
   "source_terms": [

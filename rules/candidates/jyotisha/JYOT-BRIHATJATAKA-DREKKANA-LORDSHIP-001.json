@@ -54,7 +54,9 @@
   "empirical_status": "traditional_doctrine",
   "textual_certainty": "disputed",
   "corroborates": [],
-  "conflicts_with": [],
+  "conflicts_with": [
+    "JYOT-PHALADEEPIKA-DREKKANA-OWNERSHIP-001"
+  ],
   "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
   "review_notes": "This is a separate reported variant from the hora assignment; neither is selected as a universal default. This is a reported source variant, not a selected default.",
   "source_terms": [
