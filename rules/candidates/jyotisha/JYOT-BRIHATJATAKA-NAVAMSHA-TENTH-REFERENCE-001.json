@@ -1,0 +1,70 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-NAVAMSHA-TENTH-REFERENCE-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 10",
+    "verse": "10.1",
+    "page": null,
+    "section": "Vocation",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501718.html",
+    "short_quote": "Those are to be ascertained by it abiding with the lord of the navamsha"
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-NAVAMSHA",
+  "prerequisites": [
+    "Lagna or Moon or Sun reference",
+    "navamsha lord",
+    "tenth lord"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "navamsa calculation",
+    "house order",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy"
+  ],
+  "condition": {
+    "reference_points": [
+      "lord of the navamsha",
+      "tenth lord/reference from Lagna, Moon, or Sun"
+    ],
+    "executable": false
+  },
+  "normalized_rule": "Brihat Jataka directs the vocation judgment to consider the navamsha lord together with the tenth lord/reference from the Lagna, Moon, or Sun, but the translated syntax is incomplete.",
+  "domains": [
+    "CAREER"
+  ],
+  "concepts": [
+    "navamsha",
+    "tenth_lord",
+    "vocation_reference",
+    "lagna"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This preserves the governing 10.1 dependency without inventing a modern D9 lord-of-action implementation.",
+  "source_terms": [
+    "navamsha",
+    "tenth",
+    "lagna"
+  ],
+  "transmission_notes": "The cited Wisdomlib page attributes the English rendering to Michael D. Neely (2007) and is copyrighted reference material. The passage does not establish a universal ayanamsha; coordinate and ayanamsha policy remain external inputs.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

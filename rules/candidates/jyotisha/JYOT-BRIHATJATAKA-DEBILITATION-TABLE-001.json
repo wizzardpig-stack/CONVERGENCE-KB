@@ -1,0 +1,66 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-DEBILITATION-TABLE-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 1",
+    "verse": "1.13",
+    "page": null,
+    "section": "Zodiac Signs",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501576.html",
+    "short_quote": "Those [degrees] are debilitated in the seventh house."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-EXALTATION",
+  "prerequisites": [
+    "exaltation sign table"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy",
+    "resolution of seventh house versus seventh sign referent",
+    "exact degree implementation"
+  ],
+  "condition": {
+    "source_statement": "those degrees are debilitated in the seventh house",
+    "referent": "unresolved between seventh house and seventh sign",
+    "executable": false
+  },
+  "normalized_rule": "Brihat Jataka states that the cited exaltation degrees are debilitated in the seventh house; the translation does not resolve whether this means a sign or bhava offset.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "debilitation",
+    "exaltation",
+    "planetary_dignity",
+    "zodiac_sign"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Keep debilitation separate from the exaltation table while preserving their explicit opposite-sign relationship. The opposite-sign encoding was not assumed from the translation.",
+  "source_terms": [
+    "astanīcā",
+    "nīcha",
+    "rāśi"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

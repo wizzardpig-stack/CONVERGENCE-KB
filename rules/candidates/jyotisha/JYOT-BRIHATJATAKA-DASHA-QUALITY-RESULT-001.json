@@ -1,0 +1,72 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-DASHA-QUALITY-RESULT-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 8",
+    "verse": "8.19",
+    "page": null,
+    "section": "Dashas and Antar Dashas",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501705.html",
+    "short_quote": "When the dashas are the best, the benefics perform and when they (the dashas) are termed Anishta, the malefics (perform)."
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-DASHA",
+  "prerequisites": [
+    "dasha classification"
+  ],
+  "calculation_dependencies": [
+    "dasha period",
+    "benefic/malefic classification",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy",
+    "definition of best/Anishta/mixed dasha quality"
+  ],
+  "condition": {
+    "quality_mapping": {
+      "best dasha": "benefics",
+      "Anishta dasha": "malefics",
+      "mixed dasha": "mixed results"
+    },
+    "executable": false,
+    "missing_dependencies": [
+      "definition of best/Anishta/mixed dasha quality"
+    ]
+  },
+  "normalized_rule": "The Brihat Jataka translation states a dasha-quality mapping: best dashas to benefic results, Anishta dashas to malefic results, and mixed dashas to mixed results; the quality classifier is not supplied here.",
+  "domains": [
+    "TIME",
+    "SELF"
+  ],
+  "concepts": [
+    "dasha_quality",
+    "benefic_result",
+    "malefic_result"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Keep the three-way quality mapping distinct from the separate Lagna-lord result rule. The quality labels are source terms without a complete supplied classifier.",
+  "source_terms": [
+    "Anishta",
+    "benefics",
+    "malefics"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}

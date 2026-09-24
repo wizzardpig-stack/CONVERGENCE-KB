@@ -1,0 +1,81 @@
+{
+  "rule_id": "JYOT-BRIHATJATAKA-GRAHA-DRISHTI-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Classical Indian natal astrology",
+  "source_id": "JYOT-BRIHATJATAKA-001",
+  "source_locator": {
+    "work_title": "Brihat Jataka",
+    "edition_or_translation": "Wisdomlib-hosted Michael D. Neely English translation (2007)",
+    "book": "Brihat Jataka",
+    "chapter": "Chapter 2",
+    "verse": "2.13",
+    "page": null,
+    "section": "Planets",
+    "source_url": "https://www.wisdomlib.org/hinduism/book/brihat-jataka-by-varahamihira-sanskrit-english/d/doc1501596.html",
+    "short_quote": "The 3rd and 10th, 5th and 9th, 4th and 8th, and 7th are aspected in increasing quarters."
+  },
+  "claim_type": "relationship_rule",
+  "technique_id": "JYOT-BRIHATJATAKA-GRAHA-DRISHTI",
+  "prerequisites": [
+    "sign placement",
+    "planet-to-planet separation"
+  ],
+  "calculation_dependencies": [
+    "planetary longitude",
+    "sign placement",
+    "ayanamsha requirement not specified in cited passage; external coordinate policy",
+    "aspect width/orb convention",
+    "complete special-aspect distances"
+  ],
+  "condition": {
+    "ordinary_house_groups": [
+      "3/10",
+      "5/9",
+      "4/8",
+      "7"
+    ],
+    "special_grahas": [
+      "Saturn",
+      "Jupiter",
+      "Mars"
+    ],
+    "executable": false,
+    "missing_dependencies": [
+      "aspect width/orb convention",
+      "complete special-aspect distances"
+    ]
+  },
+  "normalized_rule": "Brihat Jataka lists 3rd/10th, 5th/9th, 4th/8th, and 7th as progressive drishti groups and names Saturn, Jupiter, and Mars as special aspecters, without supplying their special distances.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "drishti",
+    "graha_aspect",
+    "house_relationship"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "disputed",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Brihat Jataka/Varahamihira rule, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a source aspect taxonomy; no orb, zodiac-width, or universal ayanamsha is supplied. The listed house groups are recorded, but the translation does not supply a complete executable aspect engine.",
+  "source_terms": [
+    "dṛṣṭi",
+    "trikona",
+    "caturth",
+    "saptama"
+  ],
+  "transmission_notes": "The proposition is taken from the primary Sanskrit/English Brihat Jataka text through the copyrighted Wisdomlib-hosted Michael D. Neely translation. The translation is reference-only; no bulk corpus is stored in the KB. The cited passage does not establish a universal ayanamsha; coordinate policy remains external. No source fingerprint is asserted because the temporary retrieval artifact is not a distributable KB corpus.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T08:04:01.017Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": null
+  }
+}
