@@ -15,7 +15,7 @@
     "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_34",
     "short_quote": "the first planet takes eight degrees, the second seven, the third six, the fourth five, and the fifth four"
   },
-  "claim_type": "calculation_rule",
+  "claim_type": "technique_rule",
   "technique_id": "WEST-DIGNITY-BOUNDS",
   "prerequisites": [
     "Chaldaic method's stated order of planets",
@@ -55,8 +55,8 @@
     "WEST-PTOLEMY-DIGNITY-BOUNDS-BASE-001",
     "WEST-PTOLEMY-DIGNITY-BOUNDS-EGYPTIAN-001"
   ],
-  "synthesis_notes": "This is a separately reported historical term-allocation variant; it is not an endorsed replacement for the Ptolemaic method.",
-  "review_notes": "Ashmand explicitly criticizes the order and accuracy of the Chaldaic method. Retain the method as a source-reported variant and do not silently merge it with the Egyptian or Ptolemaic allocations.",
+  "synthesis_notes": "This source fragment records the Chaldaic degree sequence only; it is not a complete executable bounds table because the triplicity-specific ordering is not supplied here.",
+  "review_notes": "Ashmand explicitly criticizes the order and accuracy of the Chaldaic method. This candidate records the degree sequence only; the omitted triplicity-specific order is not invented. Retain the method as a source-reported variant and do not silently merge it with the Egyptian or Ptolemaic allocations.",
   "source_terms": [
     "Chaldaic method",
     "terms",

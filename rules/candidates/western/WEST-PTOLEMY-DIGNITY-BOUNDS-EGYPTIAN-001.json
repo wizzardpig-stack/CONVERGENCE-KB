@@ -15,7 +15,7 @@
     "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_33",
     "short_quote": "for Saturn 57, Jupiter 79, Mars 66, Venus 82, and Mercury 76"
   },
-  "claim_type": "calculation_rule",
+  "claim_type": "technique_rule",
   "technique_id": "WEST-DIGNITY-BOUNDS",
   "prerequisites": [
     "Egyptian term distribution",
@@ -55,8 +55,8 @@
     "WEST-PTOLEMY-DIGNITY-BOUNDS-BASE-001",
     "WEST-PTOLEMY-DIGNITY-BOUNDS-CHALDAIC-001"
   ],
-  "synthesis_notes": "This is a separately reported historical term-allocation variant, not a universal table or a replacement for the Ptolemaic method.",
-  "review_notes": "Retain the Egyptian method as an explicit variant. Ashmand says it is the more relied-upon distribution, but that preference does not authorize flattening it with the Chaldaic or Ptolemaic methods.",
+  "synthesis_notes": "This source fragment records aggregate Egyptian totals only; it is not a complete sign-by-sign bounds calculator or a universal table.",
+  "review_notes": "Retain the Egyptian method as an explicit variant. This candidate records the aggregate totals only; the omitted sign-by-sign allocation is not invented. Ashmand says it is the more relied-upon distribution, but that preference does not authorize flattening it with the Chaldaic or Ptolemaic methods.",
   "source_terms": [
     "Ægyptian distribution",
     "terms",

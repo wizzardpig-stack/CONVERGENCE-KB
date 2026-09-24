@@ -1,0 +1,63 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-EXALTATION-JUPITER-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXII",
+    "verse": null,
+    "page": "31",
+    "section": "Exaltations",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_31",
+    "short_quote": "accordingly obtains his exaltation in that sign"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-EXALTATION",
+  "prerequisites": [
+    "Jupiter longitude",
+    "zodiac sign"
+  ],
+  "calculation_dependencies": [
+    "determination of Jupiter's zodiac sign"
+  ],
+  "condition": {
+    "planet": "Jupiter",
+    "sign": "Cancer",
+    "classification": "exaltation"
+  },
+  "normalized_rule": "Classify Jupiter as exalted in Cancer under Ptolemy's exaltation scheme.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "exaltation",
+    "planetary_dignity",
+    "jupiter"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific dignity lookup, not a guaranteed personality or event outcome.",
+  "review_notes": "The same source sentence gives Jupiter's fall in Capricorn; that separate classification is intentionally excluded from this rule.",
+  "source_terms": [
+    "exaltation",
+    "Cancer",
+    "Jupiter"
+  ],
+  "transmission_notes": "The assignment is explicit in the cited Ashmand/Proclus passage. The source's paired fall is a separate proposition and is not silently bundled here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}
