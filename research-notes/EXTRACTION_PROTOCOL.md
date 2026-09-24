@@ -64,3 +64,10 @@ Examples that require explicit conflicts:
 ## Output standard
 A user-facing sentence must ultimately be traceable:
 raw birth data -> deterministic calculation -> technique -> rule(s) -> conflict policy -> synthesis -> prose.
+
+## Terminology and transmission
+- Preserve source-era terminology when later normalized terminology could change meaning.
+- If a rule uses a modern normalized label such as domicile, sect, oriental/occidental, joy, or face, record important original/source terms in `source_terms`.
+- Do not map identical English words across eras to one technique automatically. Example: a source saying a planet "rejoices" is not automatically the later house-planet joy doctrine.
+- Use `transmission_notes` when the rule depends on a paraphrase, translation choice, footnote variant, manuscript variant, or disputed syntax.
+- `textual_certainty` should mean certainty in the cited edition/transmission, not certainty that the reconstructed doctrine is the author's autograph wording.
