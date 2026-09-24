@@ -1,0 +1,22 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://convergence.local/schemas/source.schema.json",
+  "title":"CONVERGENCE Source",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["source_id","title","author","tradition","school","rights_status","priority"],
+  "properties":{
+    "source_id":{"type":"string"},
+    "title":{"type":"string"},
+    "author":{"type":"string"},
+    "tradition":{"type":"string"},
+    "school":{"type":"string"},
+    "date":{"type":["string","null"]},
+    "edition_translator":{"type":["string","null"]},
+    "source_url":{"type":["string","null"]},
+    "rights_status":{"enum":["public_domain","public_domain_us","licensed","official_reference_copyrighted","officially_hosted_copyrighted_translation","rights_review_required","do_not_ingest"]},
+    "priority":{"enum":["P0","P1","P2","P3"]},
+    "techniques":{"type":"array","items":{"type":"string"}},
+    "notes":{"type":["string","null"]}
+  }
+}
