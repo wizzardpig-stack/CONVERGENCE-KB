@@ -1,0 +1,64 @@
+{
+  "rule_id": "WEST-PTOLEMY-DIGNITY-EXALTATION-MARS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter XXII",
+    "verse": null,
+    "page": "31",
+    "section": "Exaltations",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_31",
+    "short_quote": "his exaltation is therefore placed in Capricorn"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-DIGNITY-EXALTATION",
+  "prerequisites": [
+    "Mars longitude",
+    "zodiac sign"
+  ],
+  "calculation_dependencies": [
+    "determination of Mars's zodiac sign"
+  ],
+  "condition": {
+    "planet": "Mars",
+    "sign": "Capricorn",
+    "classification": "exaltation"
+  },
+  "normalized_rule": "Classify Mars as exalted in Capricorn under Ptolemy's exaltation scheme.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "exaltation",
+    "planetary_dignity",
+    "mars"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a single traditional dignity classification and does not assert a guaranteed behavioral, career, or event outcome.",
+  "review_notes": "The same source sentence places Mars's fall in Cancer; that separate classification is intentionally excluded. No later degree table or school variant is imported.",
+  "source_terms": [
+    "exaltation",
+    "fall",
+    "Capricorn",
+    "Mars"
+  ],
+  "transmission_notes": "The assignment is explicit in the cited Ashmand/Proclus passage. The high certainty is confidence in that cited transmission and explicit wording, not certainty about an autograph of Ptolemy.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:10:54.585Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

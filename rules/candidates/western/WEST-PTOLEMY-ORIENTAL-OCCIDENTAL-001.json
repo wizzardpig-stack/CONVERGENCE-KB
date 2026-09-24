@@ -1,0 +1,72 @@
+{
+  "rule_id": "WEST-PTOLEMY-ORIENTAL-OCCIDENTAL-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter VI",
+    "verse": null,
+    "page": "15",
+    "section": "Masculine and Feminine",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_15",
+    "short_quote": "From the ascendant to the mid-heaven, or from the angle of the west to the lower heaven, they are considered to be masculine, being then oriental: and in the other two quadrants, feminine, being then occidental."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-ORIENTAL-OCCIDENTAL",
+  "prerequisites": [
+    "Ascendant",
+    "mid-heaven",
+    "western angle",
+    "lower heaven"
+  ],
+  "calculation_dependencies": [
+    "horizon quadrant boundaries",
+    "position within a horizon quadrant"
+  ],
+  "condition": {
+    "body_class": "stars",
+    "horizon_branches": {
+      "ascendant_to_midheaven_or_western_angle_to_lower_heaven": "oriental",
+      "other_two_horizon_quadrants": "occidental"
+    }
+  },
+  "normalized_rule": "Classify positions from the Ascendant to the mid-heaven and from the western angle to the lower heaven as oriental, and positions in the other two horizon quadrants as occidental.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "orientality",
+    "occidentality",
+    "horizon_quadrants"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Ptolemaic horizon-quadrant classification, not a generic later definition of oriental/occidental.",
+  "review_notes": "Retained ID is now limited to the horizon-quadrant statement; the separate matutine/vespertine rule carries the Sun-relative classification.",
+  "source_terms": [
+    "oriental",
+    "occidental",
+    "ascendant",
+    "mid-heaven",
+    "western angle",
+    "lower heaven",
+    "horizon quadrants"
+  ],
+  "transmission_notes": "The rule follows the horizon-quadrant wording in the Ashmand/Proclus passage and must remain distinct from the Sun-relative matutine/vespertine statement. Certainty is scoped to this cited transmission.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:50:39.088Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

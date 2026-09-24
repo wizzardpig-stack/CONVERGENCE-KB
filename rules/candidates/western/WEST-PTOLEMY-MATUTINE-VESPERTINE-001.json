@@ -1,0 +1,70 @@
+{
+  "rule_id": "WEST-PTOLEMY-MATUTINE-VESPERTINE-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter VI",
+    "verse": null,
+    "page": "15",
+    "section": "Masculine and Feminine",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_15",
+    "short_quote": "While they are matutine and preceding the Sun, they are masculine; when vespertine and following the Sun, they become feminine."
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-MATUTINE-VESPERTINE",
+  "prerequisites": [
+    "Sun-relative position",
+    "matutine or vespertine status"
+  ],
+  "calculation_dependencies": [
+    "Sun-relative positional relationship",
+    "matutine or vespertine classification"
+  ],
+  "condition": {
+    "body_class": "planetary orbs",
+    "branches": {
+      "matutine_and_precedes_sun": "masculine",
+      "vespertine_and_follows_sun": "feminine"
+    }
+  },
+  "normalized_rule": "Classify a planet as masculine when it is matutine and precedes the Sun, and as feminine when it is vespertine and follows the Sun.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "matutine_vespertine",
+    "masculine",
+    "feminine",
+    "solar_relation"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific solar-relation classification, not a later generic orientality rule.",
+  "review_notes": "Keep separate from the horizon-quadrant oriental/occidental classification in the same chapter; the two source statements are not interchangeable.",
+  "source_terms": [
+    "matutine",
+    "vespertine",
+    "preceding the Sun",
+    "following the Sun",
+    "masculine",
+    "feminine"
+  ],
+  "transmission_notes": "This is the Sun-relative masculine/feminine passage in the Ashmand/Proclus transmission. It is distinct from the following horizon-quadrant statement; certainty is not certainty about an autograph of Ptolemy.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:50:39.088Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}

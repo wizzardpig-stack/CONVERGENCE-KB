@@ -1,0 +1,18 @@
+{
+  "conflict_id": "CONFLICT-PTOLEMY-LOT-FORTUNE-001",
+  "rule_ids": [
+    "WEST-PTOLEMY-LOT-FORTUNE-001",
+    "WEST-PTOLEMY-LOT-FORTUNE-PERUGIO-001"
+  ],
+  "conflict_type": "translation",
+  "description": "The Ashmand main text states a relational Part of Fortune procedure, while footnote 144 reports a Perugio Latin directional variant that counts from the Ascendant according to the Sun-Moon order.",
+  "why_they_differ": "The main text gives the equal-relation and same-day/night procedure; the additional Perugio passage explicitly distinguishes forward counting when the Moon follows the Sun from reverse counting when it precedes the Sun.",
+  "materiality": "chart_changing",
+  "resolution_policy": "preserve_variants",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Disclose the selected Part of Fortune transmission and do not silently substitute one directional procedure for the other.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}

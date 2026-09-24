@@ -1,0 +1,59 @@
+{
+  "rule_id": "WEST-PTOLEMY-SECT-MARS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter VII",
+    "verse": null,
+    "page": "15",
+    "section": "Diurnal and Nocturnal",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_15",
+    "short_quote": "the dryness of Mars to the night, to counterbalance its moisture"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-SECT",
+  "prerequisites": [],
+  "calculation_dependencies": [],
+  "condition": {
+    "planet": "Mars",
+    "sect_assignment": "nocturnal",
+    "contrary_quality": "dryness"
+  },
+  "normalized_rule": "Within the Ptolemaic sect scheme, classify Mars as nocturnal.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "sect",
+    "nocturnality",
+    "mars"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a single source-specific sect classification, not a temperamental outcome.",
+  "review_notes": "Mars's independent assignment is split from the retained Saturn rule. The source's moderation rationale remains contextual and is not a separate outcome rule.",
+  "source_terms": [
+    "Mars",
+    "nocturnal",
+    "dryness",
+    "night"
+  ],
+  "transmission_notes": "The assignment is explicit in the cited Ashmand/Proclus text. It is not a universal implementation rule and does not assert autograph certainty.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T04:50:39.088Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}
