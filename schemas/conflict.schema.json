@@ -1,0 +1,23 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://convergence.local/schemas/conflict.schema.json",
+  "title":"CONVERGENCE Rule Conflict",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["conflict_id","rule_ids","conflict_type","description","materiality","resolution_policy","status"],
+  "properties":{
+    "conflict_id":{"type":"string","pattern":"^CONFLICT-[A-Z0-9_-]{4,80}$"},
+    "rule_ids":{"type":"array","minItems":2,"uniqueItems":true,"items":{"type":"string"}},
+    "conflict_type":{"enum":["calculation_method","ayanamsha","house_system","orb_convention","textual_variant","translation","doctrinal","interpretive","timing_method","terminology","system_boundary"]},
+    "description":{"type":"string","minLength":10},
+    "why_they_differ":{"type":["string","null"]},
+    "materiality":{"enum":["none","minor","moderate","major","chart_changing"]},
+    "resolution_policy":{"enum":["preserve_variants","follow_user_selected_school","follow_product_default_with_disclosure","not_synthesizable","needs_expert_review"]},
+    "default_rule_id":{"type":["string","null"]},
+    "default_rationale":{"type":["string","null"]},
+    "user_facing_note":{"type":["string","null"]},
+    "status":{"enum":["open","resolved","accepted_variance","deprecated"]},
+    "reviewed_by":{"type":["string","null"]},
+    "reviewed_at":{"type":["string","null"],"format":"date-time"}
+  }
+}
