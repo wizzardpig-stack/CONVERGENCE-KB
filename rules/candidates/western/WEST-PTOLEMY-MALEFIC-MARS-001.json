@@ -1,0 +1,60 @@
+{
+  "rule_id": "WEST-PTOLEMY-MALEFIC-MARS-001",
+  "status": "candidate",
+  "tradition": "Western astrology",
+  "school": "Hellenistic / Ptolemaic",
+  "source_id": "WEST-PTOLEMY-001",
+  "source_locator": {
+    "work_title": "Ptolemy's Tetrabiblos",
+    "edition_or_translation": "J. M. Ashmand translation from Proclus's Greek paraphrase; 1900 W. Foulsham & Co. new edition",
+    "book": "Book I",
+    "chapter": "Chapter V",
+    "verse": null,
+    "page": "14",
+    "section": "Benefics and Malefics",
+    "source_url": "https://www.gutenberg.org/cache/epub/70850/pg70850-images.html#Page_14",
+    "short_quote": "Saturn and Mars are esteemed of a contrary nature, and malefic, or causers of evil"
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "WEST-PTOLEMAIC-BENEFIC-MALEFIC",
+  "prerequisites": [
+    "planetary quality profile"
+  ],
+  "calculation_dependencies": [],
+  "condition": {
+    "classification": "malefic",
+    "planet": "Mars"
+  },
+  "normalized_rule": "Classify Mars as malefic in Ptolemy's quality scheme.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "malefic_classification",
+    "planetary_quality",
+    "mars"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific quality classification, not a moral judgment or a guaranteed harmful outcome.",
+  "review_notes": "The surrounding passage grounds the malefic category in excess of cold and dryness; this rule records only Mars's atomic classification.",
+  "source_terms": [
+    "malefic",
+    "causers of evil",
+    "cold",
+    "dryness"
+  ],
+  "transmission_notes": "The category is the cited Ashmand rendering of Ptolemy's Proclus-based text; the word malefic is retained as source terminology and is not treated as a later scientific or evaluative claim.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T05:40:47.573Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "sha256:38b0fed08e4a471618c857861ea033cddbc93d700b1a4d7ad70ab68d90b93826"
+  }
+}
