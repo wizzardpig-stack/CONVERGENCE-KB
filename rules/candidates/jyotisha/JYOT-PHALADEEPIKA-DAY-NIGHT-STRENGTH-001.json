@@ -1,0 +1,81 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-DAY-NIGHT-STRENGTH-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 4",
+    "verse": "4.1",
+    "page": null,
+    "section": "Temporal strength",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-STRENGTH",
+  "prerequisites": [
+    "birth time"
+  ],
+  "calculation_dependencies": [
+    "birth time",
+    "planet position"
+  ],
+  "condition": {
+    "night_strong": [
+      "Mars",
+      "Moon",
+      "Venus"
+    ],
+    "all_times": [
+      "Mercury"
+    ],
+    "day_strong": [
+      "Sun",
+      "Jupiter",
+      "Saturn"
+    ],
+    "source_variant": "IV.1; preserve against the Brihat Jataka variant",
+    "executable": false,
+    "missing_dependencies": [
+      "complete strength calculation and source-variant selection"
+    ]
+  },
+  "normalized_rule": "Phaladeepika IV.1 assigns Mars, Moon, and Venus night strength, Mercury strength at all times, and the remaining grahas day strength; this source-specific table conflicts with the Brihat Jataka assignment for Venus and Saturn.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "temporal_strength",
+    "day_night",
+    "planet_strength"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [
+    "JYOT-BRIHATJATAKA-GRAHA-TEMPORAL-STRENGTH-001"
+  ],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "This is a source assignment table, not a complete numeric strength implementation; the endpoint conflict is recorded separately.",
+  "source_terms": [
+    "Kalaja",
+    "Rātri",
+    "Dina",
+    "Budha"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

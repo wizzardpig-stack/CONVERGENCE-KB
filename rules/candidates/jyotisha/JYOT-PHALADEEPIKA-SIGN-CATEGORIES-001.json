@@ -1,0 +1,70 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-SIGN-CATEGORIES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.9",
+    "page": null,
+    "section": "Definitions: sign categories",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-RASHI-CATEGORIES",
+  "prerequisites": [
+    "sign sequence"
+  ],
+  "calculation_dependencies": [
+    "sign identification"
+  ],
+  "condition": {
+    "categories": [
+      "movable/fixed/dual",
+      "entrance/outside/inside",
+      "mineral/vegetable/animal",
+      "fierce/auspicious",
+      "odd/even",
+      "male/female"
+    ]
+  },
+  "normalized_rule": "Phaladeepika's sign classification scheme is used here as a source-specific taxonomy of sign categories, including movable/fixed/dual, location, substance, temperament, parity, and gender groupings.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "sign_categories",
+    "classification",
+    "rashi"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "The wording is deliberately normalized; it does not assert that every later Jyotisha school uses the same taxonomy.",
+  "review_notes": "The source passage is a taxonomy, not a set of independent personality outcomes.",
+  "source_terms": [
+    "Chara",
+    "Sthira",
+    "Ubhaya",
+    "Dhatu",
+    "Krura",
+    "Saumya"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

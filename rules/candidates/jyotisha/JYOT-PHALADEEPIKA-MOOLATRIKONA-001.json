@@ -1,0 +1,67 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-MOOLATRIKONA-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.7",
+    "page": null,
+    "section": "Definitions: moolatrikona",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-DIGNITY",
+  "prerequisites": [
+    "planet identity",
+    "longitude within sign"
+  ],
+  "calculation_dependencies": [
+    "planetary longitude",
+    "sign degree"
+  ],
+  "condition": {
+    "source_definition": "Moolatrikona sign and degree table",
+    "degree_ranges_encoded": false,
+    "executable": false,
+    "missing_dependencies": [
+      "verified Moolatrikona degree ranges"
+    ]
+  },
+  "normalized_rule": "Phaladeepika defines a Moolatrikona sign and degree domain for each planet; this candidate records the source definition without reconstructing damaged degree ranges.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "moolatrikona",
+    "dignity",
+    "degree"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Preserve the table as a source definition; do not merge it with later house-lord or vargottama rules.",
+  "source_terms": [
+    "Moolatrikona",
+    "Uchcha",
+    "rashi"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

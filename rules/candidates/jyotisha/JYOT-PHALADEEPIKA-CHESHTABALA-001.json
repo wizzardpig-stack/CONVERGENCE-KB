@@ -1,0 +1,71 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-CHESHTABALA-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 4",
+    "verse": "4.2",
+    "page": null,
+    "section": "Motional strength",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-STRENGTH",
+  "prerequisites": [
+    "planet motion",
+    "Moon phase",
+    "solar declination"
+  ],
+  "calculation_dependencies": [
+    "planetary motion",
+    "Moon phase",
+    "solar longitude"
+  ],
+  "condition": {
+    "Moon": "full Moon",
+    "Sun": "northern course",
+    "other_planets": "retrograde motion",
+    "executable": false,
+    "missing_dependencies": [
+      "complete cheshta-bala activity calculations"
+    ]
+  },
+  "normalized_rule": "The source assigns Cheshtabala to a full Moon, the Sun in its northern course, and the other planets when retrograde.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "motional_strength",
+    "retrograde",
+    "lunar_phase"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The condition is retained without importing an ayanamsha or speed implementation.",
+  "source_terms": [
+    "Cheshtabala",
+    "Vakri",
+    "Chandra",
+    "Sūrya"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

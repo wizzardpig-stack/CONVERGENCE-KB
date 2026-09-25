@@ -1,0 +1,86 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-DASHA-TRANSIT-STRENGTH-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 20",
+    "verse": "20.34-20.35",
+    "page": null,
+    "section": "Dasha and transit",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "timing_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-TRANSIT",
+  "prerequisites": [
+    "dasha lord",
+    "transit sign",
+    "natal strength"
+  ],
+  "calculation_dependencies": [
+    "dasha calculation",
+    "transit calculation",
+    "house calculation"
+  ],
+  "condition": {
+    "favorable_branch": {
+      "natal_condition": "full strength at birth",
+      "transit_condition": [
+        "own sign",
+        "exaltation sign",
+        "friendly sign"
+      ]
+    },
+    "destructive_branch": {
+      "natal_condition": [
+        "weak",
+        "eclipsed",
+        "depressed",
+        "inimical at birth"
+      ],
+      "transit_condition": "any house transit"
+    }
+  },
+  "normalized_rule": "Phaladeepika says a dasha lord strong at birth promotes its bhava when transiting its own, exaltation, or a friendly sign, while a planet weak, eclipsed, depressed, or inimical at birth is destructive in any house transit.",
+  "domains": [
+    "TIME",
+    "CAREER",
+    "MONEY",
+    "LOVE"
+  ],
+  "concepts": [
+    "transit",
+    "dasha",
+    "house_effect",
+    "planet_strength"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Natal strength and transit placement are separate fields; the conjunction and any-transit branch are not collapsed.",
+  "source_terms": [
+    "Dasha",
+    "Gochar",
+    "Uchcha",
+    "Swakshetra",
+    "Mitra"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

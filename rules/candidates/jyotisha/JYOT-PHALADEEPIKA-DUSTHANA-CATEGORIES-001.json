@@ -1,0 +1,76 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-DUSTHANA-CATEGORIES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.17-1.18",
+    "page": null,
+    "section": "Definitions: house categories",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-BHAVA",
+  "prerequisites": [
+    "house calculation"
+  ],
+  "calculation_dependencies": [
+    "house calculation"
+  ],
+  "condition": {
+    "categories": [
+      "Dussthanas",
+      "good houses",
+      "Kendras",
+      "Trikonas",
+      "Panapharas",
+      "Apoklimas",
+      "Chaturasras",
+      "Upachayas"
+    ]
+  },
+  "normalized_rule": "Phaladeepika classifies the sixth, eighth, and twelfth houses as Dussthanas, identifies the first, fourth, seventh, and tenth as Kendras, and gives the related Panaphara, Apoklima, Chaturasra, Upachaya, and Trikona categories.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY",
+    "LOVE"
+  ],
+  "concepts": [
+    "house_categories",
+    "kendra",
+    "trikona",
+    "dussthana"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "These categories are source-specific house classifications and should not be silently merged with a different house-sign system.",
+  "review_notes": "The passage is a taxonomy; it does not by itself predict an outcome for every chart.",
+  "source_terms": [
+    "Dussthana",
+    "Kendra",
+    "Trikona",
+    "Panaphara",
+    "Apoklima",
+    "Upachaya"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

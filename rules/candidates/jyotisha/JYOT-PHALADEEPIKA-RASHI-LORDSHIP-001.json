@@ -1,0 +1,76 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-RASHI-LORDSHIP-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.6",
+    "page": null,
+    "section": "Definitions: sign lords",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-RASHI-LORDSHIP",
+  "prerequisites": [
+    "sign sequence"
+  ],
+  "calculation_dependencies": [
+    "sign identification"
+  ],
+  "condition": {
+    "signs_from_mesha": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Moon",
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Saturn",
+      "Jupiter"
+    ]
+  },
+  "normalized_rule": "For the twelve signs from Mesha onward, the source gives the lord sequence Mars, Venus, Mercury, Moon, Sun, Mercury, Venus, Mars, Jupiter, Saturn, Saturn, Jupiter.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "rashi",
+    "sign_lordship",
+    "house_lord"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [
+    "JYOT-BRIHATJATAKA-RASHI-LORDSHIP-001"
+  ],
+  "conflicts_with": [],
+  "synthesis_notes": "A lookup table is retained as one rule because splitting the sign sequence would obscure the source's ordered scheme. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "Do not replace the source sequence with a different Jyotisha school.",
+  "source_terms": [
+    "Rashi",
+    "Rashpati",
+    "Mesha",
+    "Mithuna"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

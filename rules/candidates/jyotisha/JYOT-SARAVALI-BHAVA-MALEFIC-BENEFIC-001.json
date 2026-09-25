@@ -1,0 +1,69 @@
+{
+  "rule_id": "JYOT-SARAVALI-BHAVA-MALEFIC-BENEFIC-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 30",
+    "verse": "30.86-30.87",
+    "page": null,
+    "section": "Bhava chapter",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-SARAVALI-BHAVA",
+  "prerequisites": [
+    "house calculation",
+    "planet placement",
+    "planet strength"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "planet strength"
+  ],
+  "condition": {
+    "condition": "grahas in bhavas and their strength/quality"
+  },
+  "normalized_rule": "Saravali says malefic and benefic placements weaken or nourish bhavas, while the quality of the graha, its strength, and its lordship qualify the result.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY",
+    "LOVE",
+    "FAMILY"
+  ],
+  "concepts": [
+    "bhava",
+    "benefic_malefic",
+    "planet_strength",
+    "house_lord"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Candidate extraction from the 1907 Sanskrit edition; normalized wording is an original translation/paraphrase and should be checked against the scan before approval.",
+  "source_terms": [
+    "Bhava",
+    "Shubha",
+    "Pāpa",
+    "Bala"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

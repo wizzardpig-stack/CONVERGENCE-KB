@@ -1,0 +1,76 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-VARGA-TAXONOMY-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 3",
+    "verse": "3.1",
+    "page": null,
+    "section": "Divisions of the zodiac",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-VARGA",
+  "prerequisites": [
+    "sign degree"
+  ],
+  "calculation_dependencies": [
+    "sign longitude",
+    "varga convention"
+  ],
+  "condition": {
+    "divisions": [
+      "Rasi",
+      "Hora",
+      "Drekkana",
+      "Navamsa",
+      "Dasamsa",
+      "Trimsamsa",
+      "Saptamsa",
+      "Shashtyamsa",
+      "Kalamsa",
+      "Dwadasamsa"
+    ]
+  },
+  "normalized_rule": "The source names ten varga divisions of a sign, including Rasi, Hora, Drekkana, Navamsa, Dasamsa, Trimsamsa, Saptamsa, Shashtyamsa, Kalamsa, and Dwadasamsa, with their stated angular extents.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY"
+  ],
+  "concepts": [
+    "varga",
+    "divisional_chart",
+    "sign_division"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "The varga names and extents are source-specific; a later school may calculate or weight them differently. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "Keep the taxonomy separate from executable varga software.",
+  "source_terms": [
+    "Rasi",
+    "Hora",
+    "Drekkana",
+    "Navamsa",
+    "Varga"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

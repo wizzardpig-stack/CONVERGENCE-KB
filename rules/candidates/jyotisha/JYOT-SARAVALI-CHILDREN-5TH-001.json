@@ -1,0 +1,77 @@
+{
+  "rule_id": "JYOT-SARAVALI-CHILDREN-5TH-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Putra-cintana (chapter heading not visible in OCR)",
+    "verse": "25-44 (chapter number unresolved)",
+    "page": null,
+    "section": "Putra-cintana",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-SARAVALI-CHILDREN",
+  "prerequisites": [
+    "house calculation",
+    "Navamsa",
+    "planet strength"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "varga calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "inputs": [
+      "fifth house",
+      "fifth lord",
+      "Jupiter",
+      "Moon",
+      "children count procedures"
+    ],
+    "executable": false,
+    "missing_dependencies": [
+      "complete child-count and timing procedure"
+    ]
+  },
+  "normalized_rule": "Saravali directs the reader to use the fifth house, its lord, Jupiter, the Moon, and the cited Navamsa/planet conditions when judging children; no child-count formula is encoded here.",
+  "domains": [
+    "FAMILY"
+  ],
+  "concepts": [
+    "children",
+    "fifth_house",
+    "jupiter",
+    "moon",
+    "navamsa"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The OCR preserves the Putra-cintana section but not its chapter heading; the chapter number is intentionally unresolved rather than guessed. The count procedures are recorded only at framework level; no unsupported modern child-count algorithm is added.",
+  "source_terms": [
+    "Putra",
+    "Panchama",
+    "Guru",
+    "Chandra"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

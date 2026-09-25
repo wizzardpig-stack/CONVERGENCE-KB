@@ -1,0 +1,63 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-DEBILITATION-SEVENTH-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 1",
+    "verse": "1.6",
+    "page": null,
+    "section": "Definitions: debilitation",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-DIGNITY",
+  "prerequisites": [
+    "exaltation sign"
+  ],
+  "calculation_dependencies": [
+    "sign placement",
+    "sign distance"
+  ],
+  "condition": {
+    "planet": "each seven planet",
+    "exaltation_sign": "source-assigned exaltation sign",
+    "debilitation_sign": "seventh sign from exaltation sign"
+  },
+  "normalized_rule": "For each planet, the sign of debilitation is the seventh sign from its exaltation sign.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "debilitation",
+    "dignity",
+    "rashi"
+  ],
+  "polarity": "challenging",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement. Cross-source edge added only for a genuinely comparable independent proposition; scope and edition differences remain explicit.",
+  "review_notes": "This is the source's structural relation; it does not by itself establish a universal dignity algorithm.",
+  "source_terms": [
+    "Neecha",
+    "Uchcha",
+    "rashi"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

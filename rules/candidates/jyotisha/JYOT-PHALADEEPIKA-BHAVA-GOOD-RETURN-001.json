@@ -1,0 +1,80 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-BHAVA-GOOD-RETURN-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 15",
+    "verse": "15.1",
+    "page": null,
+    "section": "Method of studying bhavas",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "interpretive_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-NATAL-JUDGMENT",
+  "prerequisites": [
+    "house calculation",
+    "planet placement",
+    "aspects"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "aspect calculation",
+    "planet strength"
+  ],
+  "condition": {
+    "benefic_or_owner_conditions": [
+      "benefic occupancy/aspect",
+      "own-lord occupancy/aspect",
+      "lord of a benefic bhava"
+    ],
+    "required_qualifications": [
+      "not in a depression sign",
+      "not eclipsed",
+      "not in an inimical sign",
+      "free from malefic association/aspect"
+    ],
+    "malefic_owner_exception": true
+  },
+  "normalized_rule": "Phaladeepika says a bhava produces its full good result when occupied or aspected by benefics, its own lord, or a lord of a benefic bhava, while remaining free from malefic association/aspect, depression, eclipse, and inimical-sign placement; a malefic owner of the bhava is the source exception.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "MONEY",
+    "LOVE",
+    "FAMILY"
+  ],
+  "concepts": [
+    "bhava_judgment",
+    "benefic_malefic",
+    "house_lord"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The 15.1 exception is for a malefic owner; depression, eclipse, and inimical-sign qualifications are retained.",
+  "source_terms": [
+    "Bhava",
+    "Shubha",
+    "Mandi",
+    "Rāja"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

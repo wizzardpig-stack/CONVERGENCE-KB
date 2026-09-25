@@ -1,0 +1,58 @@
+{
+  "rule_id": "JYOT-SARAVALI-GRAHA-NATURE-MERCURY-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 4",
+    "verse": "4.1",
+    "page": null,
+    "section": "Graha yoni",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-SARAVALI-GRAHA-NATURE",
+  "prerequisites": [
+    "planet identity"
+  ],
+  "calculation_dependencies": [
+    "planet placement"
+  ],
+  "condition": {
+    "graha": "Mercury"
+  },
+  "normalized_rule": "Saravali 4.1 associates Mercury with speech.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "budha",
+    "vak"
+  ],
+  "polarity": "supportive",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "Limited to the compact graha-nature statement in 4.1; later sign, body, and outcome descriptions are deferred.",
+  "source_terms": [
+    "Budha",
+    "Vāk"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

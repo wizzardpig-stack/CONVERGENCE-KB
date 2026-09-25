@@ -1,0 +1,67 @@
+{
+  "rule_id": "JYOT-SARAVALI-BHAVA-LORD-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 3",
+    "verse": "3.39",
+    "page": null,
+    "section": "Sign descriptions",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "technique_rule",
+  "technique_id": "JYOT-SARAVALI-BHAVA",
+  "prerequisites": [
+    "Lagna-relative house order",
+    "sign lord"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "sign placement"
+  ],
+  "condition": {
+    "bhava": "Lagna-relative bhava",
+    "sign_lord": "lord of the bhava sign"
+  },
+  "normalized_rule": "Saravali identifies the lord of a bhava's sign as the chief significator or administrator of that bhava.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "LOVE"
+  ],
+  "concepts": [
+    "bhava",
+    "sign_lord",
+    "house_administrator"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a source-specific house-lord procedure, not a universal Jyotisha synthesis rule.",
+  "review_notes": "The procedural proposition is taken from 3.39; do not add a later house-lord outcome catalogue.",
+  "source_terms": [
+    "Bhava",
+    "Rashpati",
+    "Adhipa",
+    "Rāja",
+    "Shatru"
+  ],
+  "transmission_notes": "The 1907 Sanskrit/Devanagari first-edition scan is OCR-imperfect; normalized wording is original and no bulk source text is stored.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

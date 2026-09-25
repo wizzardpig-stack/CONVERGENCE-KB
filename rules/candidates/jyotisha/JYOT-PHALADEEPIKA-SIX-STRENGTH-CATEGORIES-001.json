@@ -1,0 +1,82 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-SIX-STRENGTH-CATEGORIES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 4",
+    "verse": "4.1",
+    "page": null,
+    "section": "Shadbala",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-STRENGTH",
+  "prerequisites": [
+    "planet identity",
+    "birth time",
+    "longitude"
+  ],
+  "calculation_dependencies": [
+    "birth time",
+    "planetary longitude",
+    "house placement",
+    "motion"
+  ],
+  "condition": {
+    "components": [
+      "Kalaja",
+      "Cheshta",
+      "Uccha",
+      "Dik",
+      "Ayana",
+      "Sthana"
+    ],
+    "numeric_implementation": false,
+    "executable": false,
+    "missing_dependencies": [
+      "complete component formulas and numeric conventions"
+    ]
+  },
+  "normalized_rule": "Phaladeepika names six strength components—Kalaja, Cheshta, Uccha, Dik, Ayana, and Sthana—as a source taxonomy; numerical implementations are not encoded here.",
+  "domains": [
+    "SELF",
+    "CAREER",
+    "PURPOSE"
+  ],
+  "concepts": [
+    "shadbala",
+    "strength",
+    "calculation_component"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "The rule preserves Mantreswara's shadbala vocabulary without importing BPHS or Parashari implementation details.",
+  "review_notes": "The six named components are a taxonomy, not a claim that this batch supplies all numerical formulas. This is a source taxonomy; no numeric Shadbala engine is implied.",
+  "source_terms": [
+    "Shadbala",
+    "Kalaja",
+    "Cheshta",
+    "Dik",
+    "Ayana",
+    "Sthana"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

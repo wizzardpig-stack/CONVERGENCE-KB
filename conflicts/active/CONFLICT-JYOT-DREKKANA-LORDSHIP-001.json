@@ -1,0 +1,18 @@
+{
+  "conflict_id": "CONFLICT-JYOT-DREKKANA-LORDSHIP-001",
+  "rule_ids": [
+    "JYOT-BRIHATJATAKA-DREKKANA-LORDSHIP-001",
+    "JYOT-PHALADEEPIKA-DREKKANA-OWNERSHIP-001"
+  ],
+  "conflict_type": "doctrinal",
+  "description": "The two source traditions assign different lords to the three drekkana portions of a sign, so the divisional-house calculation is not interchangeable.",
+  "why_they_differ": "The Brihat Jataka candidate reports sign, eleventh-house, and twelfth-house lords; the 1937 Phaladeepika passage reports the sign, fifth-house, and ninth-house lords. The source locators and normalized wording are retained rather than harmonized.",
+  "materiality": "major",
+  "resolution_policy": "preserve_variants",
+  "default_rule_id": null,
+  "default_rationale": null,
+  "user_facing_note": "Choose a school explicitly; do not apply a single drekkana-lord sequence across sources.",
+  "status": "open",
+  "reviewed_by": null,
+  "reviewed_at": null
+}

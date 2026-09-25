@@ -1,0 +1,82 @@
+{
+  "rule_id": "JYOT-SARAVALI-GRAHA-TIME-ACTIVATION-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Kalyanavarma / Saravali",
+  "source_id": "JYOT-SARAVALI-001",
+  "source_locator": {
+    "work_title": "Saravali",
+    "edition_or_translation": "1907 first edition; Sanskrit/Devanagari; textual readings by V. Subrahmanya Sastri; no English translation identified",
+    "book": "Saravali",
+    "chapter": "Chapter 7",
+    "verse": "7.5-7.6",
+    "page": null,
+    "section": "Time-lord procedure",
+    "source_url": "https://archive.org/details/saravali00kalyuoft",
+    "short_quote": null
+  },
+  "claim_type": "timing_rule",
+  "technique_id": "JYOT-SARAVALI-DASHA",
+  "prerequisites": [
+    "planet identity",
+    "time period"
+  ],
+  "calculation_dependencies": [
+    "time calculation",
+    "planet placement"
+  ],
+  "condition": {
+    "bhava_lord_known": true,
+    "upachaya_relation": "source bhava-lord/Upachaya framework",
+    "graded_periods": [
+      "hora",
+      "day",
+      "month",
+      "year"
+    ],
+    "graded_values_encoded": false,
+    "executable": false,
+    "missing_dependencies": [
+      "complete graded-value table and calendar/time-unit convention"
+    ]
+  },
+  "normalized_rule": "When a graha's bhava is known, Saravali 7.5-6 relates its effect to the corresponding hora, day, month, and year with graded portions; the exact value table is not reconstructed here.",
+  "domains": [
+    "TIME",
+    "CAREER",
+    "MONEY"
+  ],
+  "concepts": [
+    "bhava_lord",
+    "upachaya",
+    "hora",
+    "time_period",
+    "graded_portion"
+  ],
+  "polarity": "contextual",
+  "evidence_level": "primary_classical",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Kalyanavarma/Saravali proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "This is a bhava/Upachaya period framework, not generic period ownership or a complete timing engine.",
+  "source_terms": [
+    "Graha",
+    "Hora",
+    "Din",
+    "Masa",
+    "Varsha",
+    "Karma",
+    "Karaka"
+  ],
+  "transmission_notes": "The source is the 1907 Sanskrit/Devanagari first-edition scan. OCR is imperfect and no English translation is claimed; the normalized rule is original wording based on the cited verse. No bulk source text, ayanamsha, or universal calculation policy is asserted. Source terms are IAST/normalizations of terms visible in the Sanskrit scan; collate the printed verse before treating any normalized wording as exact.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:saravali00kalyuoft"
+  }
+}

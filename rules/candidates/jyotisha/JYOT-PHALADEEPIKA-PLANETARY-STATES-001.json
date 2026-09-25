@@ -1,0 +1,80 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-PLANETARY-STATES-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 3",
+    "verse": "3.18-3.20",
+    "page": null,
+    "section": "Planet states",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-DIGNITY",
+  "prerequisites": [
+    "planet identity",
+    "sign placement"
+  ],
+  "calculation_dependencies": [
+    "house calculation",
+    "varga calculation",
+    "visibility state"
+  ],
+  "condition": {
+    "states": [
+      "exalted",
+      "Moolatrikona",
+      "own house",
+      "friend's house",
+      "benefic varga",
+      "overcome",
+      "malefic varga",
+      "enemy house",
+      "depression",
+      "set or disappeared",
+      "Pradeepta",
+      "Vikala",
+      "intermediate Avastha"
+    ]
+  },
+  "normalized_rule": "The source classifies a planet through states including exaltation, Moolatrikona, own/friend/enemy house, benefic or malefic varga, depression, visibility, and named Avastha conditions, with the effect described as changing across the states.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "planet_state",
+    "avastha",
+    "dignity",
+    "visibility"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "medium",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The named states are retained as a source classification; do not turn every state into a separate predictive rule here.",
+  "source_terms": [
+    "Uchcha",
+    "Moolatrikona",
+    "Neecha",
+    "Avastha",
+    "Vikala"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

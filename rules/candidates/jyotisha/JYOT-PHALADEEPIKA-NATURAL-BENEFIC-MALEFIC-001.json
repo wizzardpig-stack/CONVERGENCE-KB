@@ -1,0 +1,63 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-NATURAL-BENEFIC-MALEFIC-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 2",
+    "verse": "2.27",
+    "page": null,
+    "section": "Natural benefic and malefic",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "classification_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-GRAHA-NATURE",
+  "prerequisites": [
+    "planet identity",
+    "lunar phase"
+  ],
+  "calculation_dependencies": [
+    "Moon phase",
+    "planet placement"
+  ],
+  "condition": {
+    "classification": "waning Moon, Sun, Mars, Rahu, Ketu, Saturn versus other planets"
+  },
+  "normalized_rule": "The source classifies the waning Moon, Sun, Mars, Rahu, Ketu, and Saturn as malefic, and says Mercury joined with one of them is also malefic; the remaining planets are presented as the contrasting group.",
+  "domains": [
+    "SELF"
+  ],
+  "concepts": [
+    "benefic_malefic",
+    "planet_nature",
+    "lunar_phase"
+  ],
+  "polarity": "mixed",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "This is a Mantreswara/Phaladeepika proposition, not a universal Jyotisha claim or a scientific statement.",
+  "review_notes": "The rule includes the source's conditional Mercury statement and does not convert it into a modern universal benefic/malefic table.",
+  "source_terms": [
+    "Malefic",
+    "Shubha",
+    "Krishna",
+    "Mandi"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}

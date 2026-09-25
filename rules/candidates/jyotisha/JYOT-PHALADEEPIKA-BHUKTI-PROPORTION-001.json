@@ -1,0 +1,68 @@
+{
+  "rule_id": "JYOT-PHALADEEPIKA-BHUKTI-PROPORTION-001",
+  "status": "candidate",
+  "tradition": "Jyotisha",
+  "school": "Mantreswara / Phaladeepika",
+  "source_id": "JYOT-PHALADEEPIKA-001",
+  "source_locator": {
+    "work_title": "Mantreswara's Phaladeepika",
+    "edition_or_translation": "1937 first edition; English translation by Panditabhushana V. Subrahmanya Sastri; Sanskrit text; Aruna Press, Bangalore",
+    "book": "Phaladeepika",
+    "chapter": "Adhyaya 21",
+    "verse": "21.2",
+    "page": null,
+    "section": "Bhuktis and Antaras",
+    "source_url": "https://archive.org/details/in.ernet.dli.2015.92117",
+    "short_quote": null
+  },
+  "claim_type": "calculation_rule",
+  "technique_id": "JYOT-PHALADEEPIKA-DASHA",
+  "prerequisites": [
+    "Mahadasa years",
+    "planet years"
+  ],
+  "calculation_dependencies": [
+    "dasha calculation",
+    "bhukti calculation"
+  ],
+  "condition": {
+    "formula": "Mahadasa years x Antardasa planet years / 120, with remainder converted to months, days, and further units",
+    "executable": false,
+    "missing_dependencies": [
+      "complete dasha chronology and unit conventions"
+    ]
+  },
+  "normalized_rule": "The source calculates an Antardasa by multiplying the Mahadasa years by the relevant planet's years, dividing by 120, and converting the remainder into months, days, and finer units, with the same method extended recursively.",
+  "domains": [
+    "TIME"
+  ],
+  "concepts": [
+    "dasha",
+    "bhukti",
+    "antara",
+    "proportional_calculation"
+  ],
+  "polarity": "neutral",
+  "evidence_level": "scholarly_translation",
+  "empirical_status": "traditional_doctrine",
+  "textual_certainty": "high",
+  "corroborates": [],
+  "conflicts_with": [],
+  "synthesis_notes": "The passage is a mathematical timing procedure, not an interpretive doctrine.",
+  "review_notes": "The formula is source-specific and executable only after the repository separately locks dasha chronology and unit conventions.",
+  "source_terms": [
+    "Mahadasa",
+    "Antardasa",
+    "120",
+    "Graha"
+  ],
+  "transmission_notes": "The 1937 Sastri English translation is used as a reference-only source layer. The title page records a copyright registration while the Internet Archive metadata labels the scan public domain; no bulk text is stored. The normalized rule is original wording based on the cited passage, and printed-page mapping for individual verses is not asserted here.",
+  "provenance": {
+    "extracted_by": "convergence_doctrine_researcher",
+    "extracted_at": "2026-09-24T00:00:00.000Z",
+    "review_state": "unreviewed",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "source_fingerprint": "ia:in.ernet.dli.2015.92117"
+  }
+}
